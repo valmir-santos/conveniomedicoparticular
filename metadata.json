@@ -1,0 +1,6 @@
+{
+  "name": "Convênio Médico Particular",
+  "description": "Corretora de convênio médico e plano de saúde em São Paulo para quem só tem CPF, sem MEI e sem CNPJ. Atendimento direto e cotação rápida no WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

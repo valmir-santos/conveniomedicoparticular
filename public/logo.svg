@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="logoBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8" />
+      <stop offset="40%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#60A5FA" />
+    </linearGradient>
+    <linearGradient id="logoNavyGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B2038" />
+      <stop offset="45%" stop-color="#172554" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="logoLeafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DBEAFE" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+    <filter id="logoShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0F172A" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Central Symbol -->
+  <g transform="translate(180, 10) scale(0.9)" filter="url(#logoShadow)">
+    <!-- Loop 1 (Top Blue) -->
+    <path
+      d="M66 12 C86 12, 114 30, 120 48 C126 62, 122 80, 108 96 C93 112, 71 122, 54 122 C35 122, 12 101, 12 80 C12 63, 23 48, 38 36 L51 51 C43 60, 36 70, 36 80 C36 91, 49 101, 60 101 C73 101, 88 90, 96 80 C104 70, 102 59, 96 51 C88 40, 73 34, 60 34 Z"
+      fill="url(#logoBlueGrad)"
+    />
+
+    <!-- Loop 2 (Bottom Navy) -->
+    <path
+      d="M66 122 C46 122, 18 103, 12 86 C6 72, 10 54, 24 38 C39 23, 61 12, 78 12 C97 12, 120 33, 120 54 C120 71, 109 86, 94 99 L81 84 C89 75, 96 65, 96 54 C96 44, 83 33, 72 33 C59 33, 44 44, 36 54 C28 65, 30 76, 36 84 C44 95, 59 101, 72 101 Z"
+      fill="url(#logoNavyGrad)"
+    />
+
+    <!-- Inner Leaf -->
+    <path
+      d="M66 38 C79 51, 83 70, 71 89 C58 76, 54 57, 66 38 Z"
+      fill="url(#logoLeafGrad)"
+    />
+    <path
+      d="M66 44 Q68 64 64 83"
+      stroke="#1E3A8A"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      fill="none"
+      opacity="0.8"
+    />
+  </g>
+
+  <!-- Typography matching exact brand typography in uploaded image -->
+  <text
+    x="240"
+    y="185"
+    text-anchor="middle"
+    font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif"
+    font-size="28"
+    font-weight="800"
+    letter-spacing="0.04em"
+    fill="#0F172A"
+  >CONVÊNIO MÉDICO</text>
+
+  <text
+    x="240"
+    y="225"
+    text-anchor="middle"
+    font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif"
+    font-size="20"
+    font-weight="400"
+    letter-spacing="0.32em"
+    fill="#1E293B"
+  >PARTICULAR</text>
+</svg>
