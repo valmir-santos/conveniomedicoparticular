@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
               Corretora com Registro SUSEP ({BROKER_INFO.susep})
             </span>
             <span className="hidden sm:inline text-slate-500">•</span>
-            <span className="hidden sm:inline text-slate-300">Código Direto nas Operadoras de SP</span>
+            <span className="hidden sm:inline text-slate-300">Código Direto nas Operadoras</span>
           </div>
           
           <div className="flex items-center gap-4 text-xs">
