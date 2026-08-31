@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
               </h3>
             </div>
             <p className="text-gray-600 leading-relaxed">
-              Corretora de convênio médico e plano de saúde com atuação especializada em São Paulo para quem só tem CPF.
+              Corretora de convênio médico e plano de saúde com atuação especializada em São Paulo, Rio de Janeiro, Brasília, Paraná e atendimento digital em todo o Brasil.
             </p>
             <div className="pt-1 text-gray-700 space-y-1">
               <div className="flex items-center gap-1.5 text-[#D97706] font-bold">
@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Modalidades em São Paulo */}
+          {/* Modalidades e Capitais */}
           <div className="space-y-3">
             <h4 className="serif text-sm font-bold text-[#123A5F] uppercase tracking-wider">
               Páginas & Modalidades
@@ -93,12 +93,35 @@ export const Footer: React.FC = () => {
                   Tabela de Preços 2026
                 </Link>
               </li>
+              <li className="pt-2 border-t border-gray-100">
+                <span className="text-[10px] font-bold text-[#D97706] uppercase tracking-wider block mb-1">Capitais Atendidas:</span>
+              </li>
               <li>
+                <Link to="/plano-de-saude-sao-paulo" className="hover:text-[#D97706] transition-colors block text-gray-600">
+                  São Paulo (Capital e SP)
+                </Link>
+              </li>
+              <li>
+                <Link to="/plano-de-saude-rio-de-janeiro" className="hover:text-[#D97706] transition-colors block text-gray-600">
+                  Rio de Janeiro (RJ)
+                </Link>
+              </li>
+              <li>
+                <Link to="/plano-de-saude-brasilia" className="hover:text-[#D97706] transition-colors block text-gray-600">
+                  Brasília e Distrito Federal (DF)
+                </Link>
+              </li>
+              <li>
+                <Link to="/plano-de-saude-curitiba-parana" className="hover:text-[#D97706] transition-colors block text-gray-600">
+                  Curitiba e Paraná (PR)
+                </Link>
+              </li>
+              <li className="pt-2 border-t border-gray-100">
                 <Link
                   to="/operadoras"
                   className="hover:text-[#D97706] transition-colors block text-gray-600"
                 >
-                  Operadoras em SP
+                  Operadoras Credenciadas
                 </Link>
               </li>
               <li>

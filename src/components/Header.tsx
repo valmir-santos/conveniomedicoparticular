@@ -123,7 +123,7 @@ export const Header: React.FC = () => {
             to="/operadoras"
             className={`transition-colors hover:text-white ${location.pathname.startsWith('/operadoras') ? 'text-[#F59E0B] font-bold' : 'text-slate-200'}`}
           >
-            Operadoras em SP
+            Operadoras
           </Link>
           <Link
             to="/blog"

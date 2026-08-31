@@ -19,6 +19,10 @@ import { SobrePage } from './pages/SobrePage';
 import { ContatoPage } from './pages/ContatoPage';
 import { BlogListPage } from './pages/BlogListPage';
 import { BlogPostPage } from './pages/BlogPostPage';
+import { SaoPauloPage } from './pages/SaoPauloPage';
+import { RioDeJaneiroPage } from './pages/RioDeJaneiroPage';
+import { BrasiliaPage } from './pages/BrasiliaPage';
+import { ParanaPage } from './pages/ParanaPage';
 
 export default function App() {
   return (
@@ -44,10 +48,18 @@ export default function App() {
             <Route path="/convenio-medico-mei" element={<MeiPage />} />
             <Route path="/convenio-medico-empresarial" element={<EmpresarialPage />} />
 
+            {/* Páginas Regionais por Capital / Estado */}
+            <Route path="/plano-de-saude-sao-paulo" element={<SaoPauloPage />} />
+            <Route path="/plano-de-saude-rio-de-janeiro" element={<RioDeJaneiroPage />} />
+            <Route path="/plano-de-saude-brasilia" element={<BrasiliaPage />} />
+            <Route path="/plano-de-saude-distrito-federal" element={<BrasiliaPage />} />
+            <Route path="/plano-de-saude-curitiba-parana" element={<ParanaPage />} />
+            <Route path="/plano-de-saude-parana" element={<ParanaPage />} />
+
             {/* Cotação e Tabela de Preços */}
             <Route path="/tabela-de-precos-convenio-medico-sao-paulo" element={<TabelaPrecosPage />} />
 
-            {/* Operadoras em São Paulo */}
+            {/* Operadoras */}
             <Route path="/operadoras" element={<OperadorasListPage />} />
             <Route path="/operadoras/:slug" element={<OperadoraDetailPage />} />
 
