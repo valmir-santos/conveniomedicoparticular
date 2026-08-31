@@ -9,16 +9,16 @@ interface LogoProps {
 
 export const BrandIcon: React.FC<{ className?: string; size?: number; alt?: string }> = ({
   className = '',
-  size = 40,
-  alt = 'Logo Convênio Médico Particular'
+  size = 48,
+  alt = 'Símbolo Convênio Médico Particular'
 }) => {
   return (
     <img
-      src="/logo.jpg"
+      src="/logo-icon.png"
       alt={alt}
       width={size}
       height={size}
-      className={`object-contain rounded-md shrink-0 bg-white ${className}`}
+      className={`object-contain rounded-lg shrink-0 ${className}`}
       style={{ width: `${size}px`, height: `${size}px` }}
     />
   );
@@ -32,19 +32,19 @@ export const Logo: React.FC<LogoProps> = ({
 }) => {
   if (variant === 'icon') {
     const iconSizes = {
-      sm: 28,
-      md: 38,
-      lg: 48,
-      xl: 64,
+      sm: 36,
+      md: 48,
+      lg: 60,
+      xl: 72,
     };
     return <BrandIcon size={iconSizes[size]} className={className} />;
   }
 
   if (variant === 'header') {
     return (
-      <div className={`flex items-center gap-3 ${className}`}>
-        <div className="bg-white p-1 rounded-xl shadow-xs border border-white/40 shrink-0">
-          <BrandIcon size={40} />
+      <div className={`flex items-center gap-3.5 ${className}`}>
+        <div className="bg-white p-1.5 rounded-xl shadow-md border border-white/50 shrink-0 flex items-center justify-center">
+          <BrandIcon size={50} />
         </div>
         <div className="flex flex-col">
           <span className="serif font-bold text-lg sm:text-xl text-white tracking-tight leading-tight">

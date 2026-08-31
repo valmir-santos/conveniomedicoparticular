@@ -35,9 +35,9 @@ export const Header: React.FC = () => {
       {/* Barra Principal de Navegação e Contato Direto */}
       <div className="max-w-6xl mx-auto px-4 sm:px-8 py-3 sm:py-3.5 flex items-center justify-between gap-4">
         {/* Identidade da Corretora com Logo Oficial */}
-        <Link to="/" className="flex items-center gap-3 group">
-          <div className="bg-white p-1 rounded-xl shadow-xs border border-white/40 shrink-0 group-hover:scale-105 transition-transform">
-            <BrandIcon size={38} />
+        <Link to="/" className="flex items-center gap-3.5 group">
+          <div className="bg-white p-1.5 rounded-xl shadow-md border border-white/50 shrink-0 group-hover:scale-105 transition-transform flex items-center justify-center">
+            <BrandIcon size={52} />
           </div>
           <div className="flex flex-col">
             <span className="serif text-xl sm:text-2xl font-bold tracking-tight text-white group-hover:text-amber-100 transition-colors leading-tight">

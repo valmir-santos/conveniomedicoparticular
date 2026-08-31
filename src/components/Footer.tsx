@@ -15,8 +15,8 @@ export const Footer: React.FC = () => {
           {/* Identificação e Registro com Logo */}
           <div className="space-y-3">
             <div className="flex items-center gap-3">
-              <div className="bg-[#F9FAFB] p-1.5 rounded-xl border border-gray-200 shadow-xs shrink-0">
-                <BrandIcon size={36} />
+              <div className="bg-white p-1 rounded-xl border border-gray-200 shadow-xs shrink-0 flex items-center justify-center">
+                <BrandIcon size={44} />
               </div>
               <h3 className="serif text-lg font-bold text-[#123A5F] tracking-tight leading-tight">
                 {BROKER_INFO.name}

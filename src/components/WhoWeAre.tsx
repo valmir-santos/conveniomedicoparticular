@@ -86,8 +86,8 @@ export const WhoWeAre: React.FC = () => {
                   Atendimento em SP, RJ, DF, PR e Nacional
                 </p>
               </div>
-              <div className="bg-white p-2 rounded-xl border border-gray-200 shadow-xs shrink-0">
-                <BrandIcon size={44} />
+              <div className="bg-white p-2 rounded-xl border border-gray-200 shadow-xs shrink-0 flex items-center justify-center">
+                <BrandIcon size={52} />
               </div>
             </div>
 
