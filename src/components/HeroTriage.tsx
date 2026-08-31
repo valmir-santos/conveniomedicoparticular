@@ -16,7 +16,7 @@ export const HeroTriage: React.FC<HeroTriageProps> = ({ onSelectOption }) => {
   const getCustomWhatsAppLink = () => {
     let text = selectedOption.whatsappMessage;
     if (idades.trim() || bairro.trim()) {
-      text += `\n\nDetalhes para a cotação:\n- Idade(s): ${idades.trim() || 'A informar'}\n- Bairro / Região em SP: ${bairro.trim() || 'São Paulo capital'}`;
+      text += `\n\nDetalhes para a cotação:\n- Idade(s): ${idades.trim() || 'A informar'}\n- Cidade / Bairro: ${bairro.trim() || 'A informar'}`;
     }
     return `${BROKER_INFO.whatsappBaseUrl}?text=${encodeURIComponent(text)}`;
   };
@@ -39,11 +39,11 @@ export const HeroTriage: React.FC<HeroTriageProps> = ({ onSelectOption }) => {
           </div>
           
           <h1 className="serif text-3xl sm:text-4xl md:text-5xl leading-[1.15] text-[#123A5F] mb-4 font-bold">
-            Convênio médico em São Paulo: <span className="italic text-[#D97706]">qual é o seu caso?</span>
+            Convênio médico nas principais capitais: <span className="italic text-[#D97706]">qual é o seu caso?</span>
           </h1>
           
           <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Cotamos nas operadoras que ainda aceitam quem só tem CPF em São Paulo. Sem MEI, sem pegadinhas. 
+            Cotamos nas operadoras que ainda aceitam quem só tem CPF em São Paulo, Rio de Janeiro, Brasília, Paraná e atendimento digital em todo o Brasil. Sem MEI, sem pegadinhas. 
             Envie sua faixa etária e receba o valor no WhatsApp hoje mesmo.
           </p>
         </div>
@@ -126,7 +126,7 @@ export const HeroTriage: React.FC<HeroTriageProps> = ({ onSelectOption }) => {
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
                 {selectedOption.id === 'cpf' && (
                   <span>
-                    Cotamos nas operadoras que mantêm plano individual ativo em São Paulo. Você recebe a tabela de carência e valores antes de qualquer decisão.
+                    Cotamos nas operadoras que mantêm plano individual ativo na sua região. Você recebe a tabela de carência e valores antes de qualquer decisão.
                   </span>
                 )}
                 {selectedOption.id === 'mei' && (
@@ -158,14 +158,14 @@ export const HeroTriage: React.FC<HeroTriageProps> = ({ onSelectOption }) => {
                 </div>
                 <div>
                   <label htmlFor="input-bairro" className="block text-xs font-semibold text-gray-700 mb-1">
-                    Seu bairro ou região em SP (opcional):
+                    Sua cidade, estado ou bairro (opcional):
                   </label>
                   <input
                     type="text"
                     id="input-bairro"
                     value={bairro}
                     onChange={(e) => setBairro(e.target.value)}
-                    placeholder="Ex: Vila Marieta, Penha, Tatuapé, Mooca..."
+                    placeholder="Ex: São Paulo, Rio de Janeiro, Brasília, Curitiba..."
                     className="w-full bg-[#F9FAFB] border border-gray-300 rounded-lg px-3.5 py-2.5 text-sm text-[#1A1A1A] placeholder-gray-400 focus:outline-none focus:border-[#123A5F] focus:ring-1 focus:ring-[#123A5F]"
                   />
                 </div>

@@ -14,7 +14,7 @@ export const Operators: React.FC = () => {
             Código Direto na Fonte
           </span>
           <h2 className="serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[#123A5F] leading-tight mb-3">
-            Operadoras comparadas em São Paulo
+            Operadoras comparadas em São Paulo, RJ, DF, PR e Nacional
           </h2>
           <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
             Nós cotamos na fonte, direto no sistema das operadoras credenciadas. 
@@ -55,7 +55,7 @@ export const Operators: React.FC = () => {
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs font-bold text-gray-500 uppercase tracking-widest mb-4 pb-3 border-b border-gray-100">
             <div className="flex items-center gap-2">
               <Building className="w-4 h-4 text-[#D97706]" />
-              <span>Operadoras com comercialização ativa em São Paulo</span>
+              <span>Operadoras com comercialização ativa nas principais praças</span>
             </div>
             <Link to="/operadoras" className="text-[#123A5F] hover:text-[#D97706] inline-flex items-center gap-1 font-bold">
               <span>Ver todas as 15 operadoras</span>

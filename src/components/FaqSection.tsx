@@ -24,7 +24,7 @@ export const FaqSection: React.FC = () => {
             Perguntas que a gente ouve toda semana
           </h2>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-            Respostas práticas e diretas para as dúvidas mais comuns de quem busca convênio médico em São Paulo.
+            Respostas práticas e diretas para as dúvidas mais comuns de quem busca convênio médico nas principais capitais e em todo o Brasil.
           </p>
         </div>
 

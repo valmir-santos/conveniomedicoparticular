@@ -17,7 +17,7 @@ export const CpfAdvocacy: React.FC<CpfAdvocacyProps> = ({ onNavigateSemCnpj }) =
             Posicionamento Claro
           </span>
           <h2 className="serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[#123A5F] leading-tight">
-            Por que quem só tem CPF é mal atendido no mercado de São Paulo
+            Por que quem só tem CPF é mal atendido no mercado tradicional
           </h2>
         </div>
 
@@ -39,13 +39,13 @@ export const CpfAdvocacy: React.FC<CpfAdvocacyProps> = ({ onNavigateSemCnpj }) =
           <p>
             O mercado empurra o plano empresarial porque ele dá menos trabalho operacional para quem vende e 
             possui regras comerciais mais rápidas. Com isso, quem trabalha com carteira assinada, é autônomo sem CNPJ, 
-            aposentado ou profissional informal em São Paulo acaba ficando sem atendimento de verdade.
+            aposentado ou profissional informal nas principais cidades acaba ficando sem atendimento de verdade.
           </p>
 
           <p className="font-semibold text-[#123A5F]">
             Na Convênio Médico Particular, nós fazemos o caminho oposto. Nós pesquisamos as operadoras que continuam 
-            comercializando planos individuais e familiares na capital paulista, comparamos a rede credenciada de hospitais 
-            e laboratórios da sua região, e falamos a verdade: se a conta não fechar para o seu caso, avisamos na hora.
+            comercializando planos individuais e familiares em São Paulo, Rio de Janeiro, Brasília, Paraná e todo o país, 
+            comparamos a rede credenciada de hospitais e laboratórios da sua região, e falamos a verdade: se a conta não fechar para o seu caso, avisamos na hora.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ export const CpfAdvocacy: React.FC<CpfAdvocacyProps> = ({ onNavigateSemCnpj }) =
               <span>O que nós fazemos aqui</span>
             </div>
             <p className="text-sm text-gray-800 leading-relaxed">
-              Cotamos direto nas operadoras que vendem para pessoa física em São Paulo, enviamos a tabela de carências completa e calculamos a viabilidade real.
+              Cotamos direto nas operadoras que vendem para pessoa física na sua região, enviamos a tabela de carências completa e calculamos a viabilidade real.
             </p>
           </div>
         </div>
@@ -75,7 +75,7 @@ export const CpfAdvocacy: React.FC<CpfAdvocacyProps> = ({ onNavigateSemCnpj }) =
         {/* Link interno descritivo com destaque */}
         <div className="mt-8 pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-gray-200">
           <span className="text-sm text-gray-600">
-            Deseja saber quais operadoras ainda atendem pessoa física em São Paulo?
+            Deseja saber quais operadoras ainda atendem pessoa física na sua região?
           </span>
 
           <Link

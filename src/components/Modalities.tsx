@@ -18,7 +18,7 @@ export const Modalities: React.FC<ModalitiesProps> = ({ onSelectModality }) => {
             Modalidades Atendidas
           </span>
           <h2 className="serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[#123A5F] leading-tight mb-3">
-            Modalidades de convênio médico em São Paulo
+            Modalidades de convênio médico disponíveis
           </h2>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
             Cada formato possui regras próprias de entrada, documentação e carência. Veja o resumo de para quem serve e para quem não serve:
@@ -56,7 +56,7 @@ export const Modalities: React.FC<ModalitiesProps> = ({ onSelectModality }) => {
                     {isTopPriority && (
                       <span className="inline-flex items-center gap-1 text-xs font-bold text-[#D97706]">
                         <Star className="w-3.5 h-3.5 fill-current" />
-                        Destaque em São Paulo
+                        Destaque Regional e Nacional
                       </span>
                     )}
                   </div>

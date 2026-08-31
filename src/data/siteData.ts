@@ -65,7 +65,7 @@ export const TRIAGE_OPTIONS: TriageOption[] = [
     title: 'Só tenho CPF',
     badge: 'Nosso foco em São Paulo, Rio de Janeiro, Brasília e Paraná',
     description: 'Sem exigência de MEI, sem precisar abrir empresa e sem taxa de sindicato ou associação de classe.',
-    recommendedFor: 'Pessoa física, autônomos e famílias que querem contratar plano de saúde direto no seu nome em São Paulo.',
+    recommendedFor: 'Pessoa física, autônomos e famílias que querem contratar plano de saúde direto no seu nome nas principais praças e capitais.',
     whatsappMessage: 'Olá! Quero uma cotação de plano de saúde. Não tenho CNPJ e quero contratar direto no meu CPF.',
     route: '/plano-de-saude-sem-cnpj',
     isPrimary: true,
@@ -76,7 +76,7 @@ export const TRIAGE_OPTIONS: TriageOption[] = [
     badge: 'Autônomo com empresa',
     description: 'Para quem já mantém CNPJ ativo e busca tabela empresarial para 1 ou mais vidas.',
     recommendedFor: 'Microempreendedores que já pagam DAS e querem comparar se a tabela MEI compensa para sua faixa etária.',
-    whatsappMessage: 'Olá! Já tenho MEI ativo e quero cotar um convênio médico para comparar opções na capital.',
+    whatsappMessage: 'Olá! Já tenho MEI ativo e quero cotar um convênio médico para comparar opções na minha região.',
     route: '/convenio-medico-mei',
     isPrimary: false,
   },
@@ -101,7 +101,7 @@ export const MODALITIES: ModalityItem[] = [
     forWhom: 'Para quem quer contratar apenas com o CPF, sem abrir MEI e sem vínculo com sindicato.',
     notForWhom: 'Não é para quem já tem uma empresa estruturada com mais de 2 vidas buscando desconto corporativo.',
     highlight: true,
-    details: 'A gente cota nas operadoras que ainda mantêm contratação individual ativa na capital de São Paulo, verificando hospitais do seu bairro e explicando a carência real.'
+    details: 'A gente cota nas operadoras que ainda mantêm contratação individual ativa na sua região (São Paulo, Rio de Janeiro, Brasília, Paraná e todo o Brasil), verificando hospitais da sua cidade e explicando a carência real.'
   },
   {
     id: 'individual-familiar',
@@ -111,7 +111,7 @@ export const MODALITIES: ModalityItem[] = [
     forWhom: 'Para você e seus dependentes diretos (filhos, cônjuge, pais) com faturamento em boleto único.',
     notForWhom: 'Não atende quem busca incluir sobrinhos ou agregados sem vínculo de dependência reconhecido pela operadora.',
     highlight: true,
-    details: 'Opções com acomodação em enfermaria ou apartamento, com ou sem coparticipação para consultas e exames na rede credenciada paulistana.'
+    details: 'Opções com acomodação em enfermaria ou apartamento, com ou sem coparticipação para consultas e exames na melhor rede credenciada da sua cidade.'
   },
   {
     id: 'adesao',
@@ -152,7 +152,7 @@ export const HOW_IT_WORKS_STEPS: StepItem[] = [
   {
     number: '02',
     title: 'A gente puxa a tabela das operadoras ativas',
-    description: 'Consultamos diretamente no sistema das operadoras em São Paulo quais planos individuais ou familiares estão abertos para a sua faixa etária.',
+    description: 'Consultamos diretamente no sistema das operadoras na sua região quais planos individuais ou familiares estão abertos para a sua faixa etária.',
     timeline: 'Consulta direta na fonte'
   },
   {
@@ -174,7 +174,7 @@ export const FAQ_LIST: FaqItem[] = [
     id: 'sem-cnpj-consegue',
     question: 'Não tenho CNPJ. Consigo contratar plano de saúde?',
     directAnswer: 'Sim, você consegue contratar normalmente apenas com o seu CPF.',
-    explanation: 'Embora muitas corretoras prefiram vender para empresas, ainda existem operadoras tradicionais em São Paulo que comercializam planos individuais e familiares. A gente localiza essas opções ativas para você.'
+    explanation: 'Embora muitas corretoras prefiram vender apenas para empresas, ainda existem operadoras tradicionais que comercializam planos individuais e familiares em São Paulo, Rio de Janeiro, Brasília, Paraná e todo o país. A gente localiza essas opções ativas para você.'
   },
   {
     id: 'vale-a-pena-mei',
@@ -196,9 +196,9 @@ export const FAQ_LIST: FaqItem[] = [
   },
   {
     id: 'rede-zona-leste',
-    question: 'O plano cobre a rede aqui na minha Cidade e outras regiões?',
-    directAnswer: 'Cobre, desde que a gente selecione uma operadora com rede credenciada nos seus bairros de preferência.',
-    explanation: 'Se você mora na Vila Marieta, Penha, Tatuapé, Mooca ou Itaquera, filtramos operadoras que possuem hospitais, laboratórios e prontos-socorros próximos de onde você mora ou trabalha.'
+    question: 'O plano cobre hospitais e laboratórios na minha cidade ou região?',
+    directAnswer: 'Cobre, desde que a gente selecione uma operadora com rede credenciada nos seus bairros e cidades de preferência.',
+    explanation: 'Seja em São Paulo (capital e bairros), Rio de Janeiro, Brasília, Curitiba e Paraná ou demais regiões, filtramos operadoras que possuem hospitais, laboratórios e prontos-socorros próximos de onde você mora ou trabalha.'
   },
   {
     id: 'incluir-familia',

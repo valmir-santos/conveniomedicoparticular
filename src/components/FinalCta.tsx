@@ -19,8 +19,8 @@ export const FinalCta: React.FC = () => {
         </h2>
 
         <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto mb-8 leading-relaxed font-sans">
-          Mande uma mensagem agora com as idades de quem vai entrar. O corretor puxa a tabela das operadoras 
-          ativas em São Paulo e responde no WhatsApp no mesmo dia útil.
+          Mande uma mensagem agora com as idades de quem vai entrar e sua região. O corretor puxa a tabela das operadoras 
+          ativas na sua localidade e responde no WhatsApp no mesmo dia útil.
         </p>
 
         {/* Botões Lado a Lado */}

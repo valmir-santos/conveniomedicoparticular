@@ -17,14 +17,14 @@ export const WhoWeAre: React.FC = () => {
 
             <div className="flex items-start gap-4 mb-6">
               <div className="w-16 h-16 sm:w-20 sm:h-20 bg-[#123A5F] rounded-xl flex items-center justify-center text-white serif text-2xl sm:text-3xl font-bold shrink-0 shadow-sm">
-                CA
+                {BROKER_INFO.corretorNome.split(' ').map(n => n[0]).slice(0, 2).join('')}
               </div>
               <div className="flex flex-col">
                 <span className="serif text-2xl font-bold text-[#123A5F] leading-tight">
-                  Carlos Alberto
+                  {BROKER_INFO.corretorNome}
                 </span>
                 <span className="text-xs text-gray-500 font-medium mt-0.5">
-                  Corretor Responsável | Registro SUSEP 10.203040
+                  Responsável Técnico | {BROKER_INFO.susep}
                 </span>
                 <p className="text-sm text-gray-600 italic mt-2 leading-relaxed">
                   "Não enviamos tabelas genéricas. Analisamos seu perfil e rede de preferência antes de enviar a cotação. Atendemos todo o Brasil com presença física em SP, RJ, DF e PR, e atendimento 100% digital em todas as demais regiões."
@@ -83,7 +83,7 @@ export const WhoWeAre: React.FC = () => {
                   {BROKER_INFO.name}
                 </h3>
                 <p className="text-xs text-gray-600 mt-0.5 font-medium">
-                  Atendimento Oficial em São Paulo
+                  Atendimento em SP, RJ, DF, PR e Nacional
                 </p>
               </div>
               <div className="bg-white p-2 rounded-xl border border-gray-200 shadow-xs shrink-0">
@@ -97,7 +97,7 @@ export const WhoWeAre: React.FC = () => {
                 <div>
                   <span className="font-semibold text-[#123A5F] block">Registro Oficial SUSEP</span>
                   <span className="text-gray-700 text-xs sm:text-sm font-mono bg-white px-2 py-0.5 rounded border border-gray-200 inline-block mt-0.5 font-semibold">
-                    SUSEP 10.203040
+                    {BROKER_INFO.susep}
                   </span>
                   <span className="text-xs text-gray-500 block mt-0.5">
                     {BROKER_INFO.codigoDireto}

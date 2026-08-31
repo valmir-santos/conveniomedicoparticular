@@ -91,7 +91,7 @@ export const HomePage: React.FC = () => {
               <span className="bg-[#FEF3C7] text-[#D97706] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                 {selectedModalityModal.tag}
               </span>
-              <span className="text-xs text-gray-500 font-medium">São Paulo / SP</span>
+              <span className="text-xs text-gray-500 font-medium">SP • RJ • DF • PR • Brasil</span>
             </div>
 
             <h3 className="serif font-bold text-xl sm:text-2xl text-[#123A5F] mb-3">
@@ -116,7 +116,7 @@ export const HomePage: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row items-center gap-3 pt-4 border-t border-gray-200">
               <a
-                href={`${BROKER_INFO.whatsappBaseUrl}?text=${encodeURIComponent(`Olá! Gostaria de receber uma cotação e a tabela vigente para a modalidade: ${selectedModalityModal.name} em São Paulo.`)}`}
+                href={`${BROKER_INFO.whatsappBaseUrl}?text=${encodeURIComponent(`Olá! Gostaria de receber uma cotação e a tabela vigente para a modalidade: ${selectedModalityModal.name}.`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1EBE5D] text-white font-bold text-sm py-3 px-5 rounded-full uppercase tracking-wider transition-colors shadow-sm"

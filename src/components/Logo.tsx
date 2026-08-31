@@ -94,7 +94,7 @@ export const Logo: React.FC<LogoProps> = ({
             Convênio Médico Particular
           </span>
           <span className="text-[10px] sm:text-[11px] font-bold text-[#F59E0B] uppercase tracking-widest leading-none mt-0.5">
-            Corretora em São Paulo
+            Corretora Autorizada
           </span>
         </div>
       </div>

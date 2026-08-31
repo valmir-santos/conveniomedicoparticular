@@ -44,7 +44,7 @@ export const Header: React.FC = () => {
               Convênio Médico Particular
             </span>
             <span className="text-[10px] sm:text-xs text-[#F59E0B] font-bold tracking-widest uppercase opacity-95 font-sans mt-0.5">
-              Corretora de Planos de Saúde em São Paulo
+              Corretora de Planos de Saúde
             </span>
           </div>
         </Link>
@@ -55,7 +55,7 @@ export const Header: React.FC = () => {
             href={BROKER_INFO.telefoneTel}
             id="header-phone-button"
             className="hidden sm:flex flex-col text-right group"
-            title="Ligue para falar com o corretor em São Paulo"
+            title="Ligue para falar com o corretor responsável"
           >
             <span className="text-[11px] text-slate-300 uppercase tracking-wider opacity-80 group-hover:text-white transition-colors">
               Atendimento Personalizado
