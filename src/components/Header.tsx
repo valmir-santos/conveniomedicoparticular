@@ -34,16 +34,20 @@ export const Header: React.FC = () => {
 
       {/* Barra Principal de Navegação e Contato Direto */}
       <div className="max-w-6xl mx-auto px-4 sm:px-8 py-3 sm:py-3.5 flex items-center justify-between gap-4">
-        {/* Identidade da Corretora com Logo Oficial */}
-        <Link to="/" className="flex items-center gap-3.5 group">
-          <div className="bg-white p-1.5 rounded-xl shadow-md border border-white/50 shrink-0 group-hover:scale-105 transition-transform flex items-center justify-center">
-            <BrandIcon size={52} />
+        {/* Identidade da Corretora com Logo Oficial Stacked */}
+        <Link to="/" className="flex flex-col items-start group my-1">
+          <div className="bg-white px-3 py-1.5 rounded-lg shadow-sm border border-white/60 group-hover:scale-[1.02] transition-transform flex items-center justify-center mb-1">
+            <img
+              src="/logo.jpg"
+              alt="Convênio Médico Particular"
+              className="h-12 sm:h-14 w-auto object-contain"
+            />
           </div>
           <div className="flex flex-col">
-            <span className="serif text-xl sm:text-2xl font-bold tracking-tight text-white group-hover:text-amber-100 transition-colors leading-tight">
+            <span className="serif text-base sm:text-lg font-bold tracking-tight text-white group-hover:text-amber-100 transition-colors leading-tight">
               Convênio Médico Particular
             </span>
-            <span className="text-[10px] sm:text-xs text-[#F59E0B] font-bold tracking-widest uppercase opacity-95 font-sans mt-0.5">
+            <span className="text-[10px] sm:text-[11px] text-[#F59E0B] font-bold tracking-widest uppercase opacity-95 font-sans mt-0.5">
               Corretora de Planos de Saúde
             </span>
           </div>
