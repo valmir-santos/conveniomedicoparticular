@@ -35,7 +35,7 @@ export const HeroTriage: React.FC<HeroTriageProps> = ({ onSelectOption }) => {
         <div className="text-center max-w-4xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FEF3C7] border border-[#FDE68A] text-xs font-bold text-[#D97706] mb-4 tracking-wider uppercase">
             <span className="w-2 h-2 rounded-full bg-[#D97706] animate-pulse"></span>
-            Atendimento Especializado em São Paulo e Zona Leste
+            Atendimento Especializado nas Principais Capitais
           </div>
           
           <h1 className="serif text-3xl sm:text-4xl md:text-5xl leading-[1.15] text-[#123A5F] mb-4 font-bold">
