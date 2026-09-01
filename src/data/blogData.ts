@@ -596,6 +596,162 @@ export const BLOG_POSTS: BlogPost[] = [
     customWhatsappText: 'Olá! Gostaria de receber uma cotação de planos de saúde especializados para terceira idade / público 50+.',
     ctaTitle: 'Quer cotar um plano especializado para você ou seus pais?',
     ctaDescription: 'Enviamos as tabelas completas da Prevent Senior, MedSênior e Trasmontano direto no seu WhatsApp.'
+  },
+
+  // 8. COMO CONTRATAR PLANO MEI
+  {
+    id: 'artigo-8-como-contratar-plano-mei',
+    slug: 'como-contratar-plano-de-saude-mei-regras-documentos',
+    title: 'Como contratar plano de saúde com MEI: carência de 6 meses, documentos e dependentes',
+    subtitle: 'O guia definitivo para microempreendedores: regras de tempo de CNPJ, quem pode ser incluído, documentos exigidos e como funciona a redução de carência.',
+    targetKeyword: 'como contratar plano de saúde com MEI',
+    metaDescription: 'Veja como contratar plano de saúde com MEI: regra dos 6 meses de abertura do CNPJ, documentos necessários, inclusão de familiares e tabelas de desconto.',
+    category: 'Planos Empresariais & MEI',
+    publishDate: '2026-09-01',
+    readTime: '8 min de leitura',
+    author: {
+      name: 'Andrea Correa Leite',
+      role: 'Corretora Habilitada com Registro SUSEP',
+      susep: '10.2000204.1',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 10 anos. Atendimento técnico sem atalhos irregulares.',
+      profileUrl: '/sobre'
+    },
+    introAnswer: 'Para contratar um plano de saúde pelo MEI, você precisa ter o CNPJ ativo na Receita Federal há pelo menos 6 meses contínuos e reunir no mínimo 2 vidas (o titular do MEI mais um dependente direto, como cônjuge ou filho, ou funcionário registrado). O plano MEI oferece tabelas corporativas com custos até 35% mais baixos que as opções individuais.',
+    sections: [
+      {
+        questionH2: 'Por que as operadoras exigem 6 meses de MEI aberto?',
+        directFirstSentence: 'A regra dos 6 meses visa certificar que a empresa possui atividade econômica regular e não foi criada apenas para fraude de adesão.',
+        content: [
+          'Todas as principais operadoras de saúde (como Amil, Bradesco Saúde, SulAmérica, Porto Saúde, Notredame Intermédica e Trasmontano) aplicam a exigência de tempo mínimo de constituição cadastral.',
+          'Durante a análise da proposta, a operadora emite o comprovante de situação cadastral no site da Receita Federal e confere a data de abertura.',
+          'Se o seu CNPJ tiver menos de 180 dias de registro, a proposta corporativa de MEI não é aceita pelo sistema das seguradoras, sendo necessário aguardar o prazo ou optar por um contrato no CPF.'
+        ]
+      },
+      {
+        questionH2: 'Quais documentos o microempreendedor precisa apresentar?',
+        directFirstSentence: 'A documentação básica inclui o Cartão CNPJ, o Certificado CCMEI, documento com foto do titular e comprovantes de parentesco dos dependentes.',
+        content: [
+          'Para o titular do MEI: Cartão CNPJ ativo, Certificado da Condição de Microempreendedor Individual (CCMEI atualizado), RG/CNH e comprovante de residência.',
+          'Para dependentes: Certidão de casamento ou união estável para cônjuge/companheiro(a); Certidão de nascimento ou RG/CPF para filhos solteiros ou enteados.',
+          'Para funcionário registrado: Cópia da carteira de trabalho ou extrato do eSocial comprovando o vínculo empregatício formal com o MEI.'
+        ]
+      },
+      {
+        questionH2: 'Quem pode entrar como dependente no plano MEI?',
+        directFirstSentence: 'Podem ser incluídos como dependentes o cônjuge, companheiro com união estável, filhos e enteados solteiros até 21 anos (ou 24 se universitários).',
+        content: [
+          'Diferente de empresas maiores (LTDA ou S/A), o MEI só permite a inclusão de dependentes diretos (vínculo de 1º grau) ou de funcionário registrado com carteira assinada.',
+          'Pais, sogros, tios ou primos não podem ser cadastrados na apólice de MEI, preservando a elegibilidade cadastral da microempresa.'
+        ]
+      },
+      {
+        questionH2: 'Como funciona o pagamento e o reajuste anual do MEI?',
+        directFirstSentence: 'O pagamento é feito em boleto bancário emitido em nome do CNPJ e o reajuste anual é apurado pelo agrupamento de contratos até 29 vidas.',
+        content: [
+          'Todo mês, a fatura é enviada para o e-mail cadastrado ou baixada no portal corporativo da operadora.',
+          'No aniversário da apólice, o reajuste é calculado com base no índice do pool de risco de pequenas empresas da operadora, mantendo a estabilidade coletiva do grupo.'
+        ]
+      }
+    ],
+    concreteBlock: {
+      type: 'steps',
+      title: 'Passo a Passo para Contratar Plano de Saúde pelo MEI',
+      description: 'Como funciona a contratação do início até a liberação das carteirinhas.',
+      steps: [
+        { step: 1, title: 'Checagem do CNPJ', detail: 'Verificação do tempo de abertura (mínimo 6 meses) e situação ativa na Receita Federal.' },
+        { step: 2, title: 'Composição das 2 Vidas', detail: 'Definição do titular + dependente legal (cônjuge/filho) ou funcionário registrado.' },
+        { step: 3, title: 'Escolha da Rede e Acomodação', detail: 'Seleção da operadora (Amil, Bradesco, Porto, Trasmontano, São Cristóvão) e padrão de internação (Enfermaria ou Apartamento).' },
+        { step: 4, title: 'Envio Digital e Implantação', detail: 'Assinatura digital da proposta, conferência documental e emissão das carteirinhas corporativas.' }
+      ]
+    },
+    keyTakeaways: [
+      'Contratos de MEI exigem no mínimo 6 meses de CNPJ ativo e mínimo de 2 vidas.',
+      'Economia de até 35% em relação aos planos de saúde de pessoa física avulsos.',
+      'Cônjuge, filhos e funcionários registrados no eSocial podem ser incluídos.',
+      'Envie o número do seu CNPJ para receber um estudo comparativo completo das operadoras.'
+    ],
+    customWhatsappText: 'Olá! Tenho um MEI ativo e gostaria de receber o comparativo de valores das operadoras.',
+    ctaTitle: 'Quer cotar a tabela MEI para o seu CNPJ?',
+    ctaDescription: 'Enviamos o estudo comparativo de preços e hospitais das principais operadoras direto no seu WhatsApp.'
+  },
+
+  // 9. PLANO PME A PARTIR DE QUANTAS VIDAS
+  {
+    id: 'artigo-9-plano-pme-regras-vidas',
+    slug: 'plano-de-saude-pme-a-partir-de-quantas-vidas-regras',
+    title: 'Plano de saúde empresarial PME: como contratar a partir de 2 ou 3 vidas e regras para sócios',
+    subtitle: 'Tudo o que você precisa saber sobre convênio para micro, pequenas e médias empresas (LTDA, SLU, S/A): carência zero do CNPJ, coparticipação e dependentes.',
+    targetKeyword: 'plano de saúde PME a partir de quantas vidas',
+    metaDescription: 'Entenda como contratar plano de saúde empresarial PME a partir de 2 vidas para empresas LTDA e SLU: sem carência de CNPJ, coparticipação inteligente e regras.',
+    category: 'Planos Empresariais & MEI',
+    publishDate: '2026-09-01',
+    readTime: '9 min de leitura',
+    author: {
+      name: 'Andrea Correa Leite',
+      role: 'Corretora Habilitada com Registro SUSEP',
+      susep: '10.2000204.1',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 10 anos. Atendimento técnico sem atalhos irregulares.',
+      profileUrl: '/sobre'
+    },
+    introAnswer: 'Empresas do tipo LTDA, SLU, EIRELI ou S/A podem contratar plano de saúde empresarial (PME) a partir de 2 ou 3 vidas imediatamente após a abertura do CNPJ, sem necessidade de aguardar prazo de carência da empresa. Podem participar sócios administradores constantes no contrato social, funcionários com vínculo CLT e seus dependentes diretos.',
+    sections: [
+      {
+        questionH2: 'Empresa LTDA ou SLU precisa esperar tempo de CNPJ para contratar?',
+        directFirstSentence: 'Não, empresas constituídas como LTDA ou Sociedade Limitada Unipessoal (SLU) podem contratar o plano no dia seguinte à emissão do contrato social registrado.',
+        content: [
+          'Diferente do MEI (que exige 6 meses de abertura), as sociedades contratuais regulares (LTDA, SLU, S/A) são aceitas pelas operadoras logo após a obtenção do CNPJ ativo e registro na Junta Comercial.',
+          'Isso permite que novos empresários, startups, clínicas, consultorias e comércios ofereçam plano de saúde aos sócios e colaboradores desde o primeiro mês de atividade da empresa.'
+        ]
+      },
+      {
+        questionH2: 'Quem pode compor as vidas de um plano corporativo PME?',
+        directFirstSentence: 'As vidas do plano PME podem ser compostas por sócios do contrato social, funcionários CLT registrados e seus respectivos dependentes legais.',
+        content: [
+          'Por exemplo: uma empresa SLU com apenas 1 sócio titular pode atingir o mínimo de 2 vidas incluindo o sócio mais o cônjuge ou um filho como dependente.',
+          'Em empresas com equipe, funcionários registrados no eSocial, estagiários com contrato formal e aprendizes também podem ser inseridos na apólice corporativa.',
+          'A apólice pode ter categorias diferentes de plano para diretoria e colaboradores, conforme o planejamento de benefícios da empresa.'
+        ]
+      },
+      {
+        questionH2: 'Como a coparticipação reduz os custos da folha de pagamento?',
+        directFirstSentence: 'A coparticipação reduz o custo fixo da mensalidade corporativa em até 30% e estimula o uso consciente dos serviços médicos pelos colaboradores.',
+        content: [
+          'No modelo com coparticipação, a empresa paga uma fatura mensal previsível e bem mais barata.',
+          'Quando um colaborador faz uma consulta eletiva ou exame simples, a taxa de coparticipação (com teto pré-fixado) é descontada na folha de pagamento ou assumida pela empresa, conforme a política interna de RH.',
+          'Internações hospitalares e terapias continuadas possuem regras com limitadores ou isenção, garantindo proteção total ao colaborador.'
+        ]
+      },
+      {
+        questionH2: 'Como funciona o aproveitamento e compra de carências em planos PME?',
+        directFirstSentence: 'Para grupos a partir de 2 vidas que já possuíam plano de saúde anterior, as operadoras aplicam tabelas promocionais de redução de carência e, a partir de 30 vidas, carência zero total.',
+        content: [
+          'Se a empresa está trocando de operadora ou se os colaboradores já tinham convênio médico prévio, apresentamos a carta de permanência do contrato anterior para zerar prazos de consultas, exames e internações.',
+          'Nossa equipe faz o estudo técnico de migração para garantir que ninguém fique desassistido durante a transição.'
+        ]
+      }
+    ],
+    concreteBlock: {
+      type: 'table',
+      title: 'Quadro Comparativo: Plano MEI vs Plano Empresarial PME (LTDA / SLU)',
+      description: 'Principais diferenças contratuais entre MEI e sociedades empresariais.',
+      headers: ['Critério', 'Microempreendedor Individual (MEI)', 'Empresarial PME (LTDA / SLU / S/A)'],
+      rows: [
+        ['Tempo de CNPJ Exigido', 'Mínimo de 6 meses de abertura', 'Imediato (zero dias de carência do CNPJ)'],
+        ['Mínimo de Vidas', 'A partir de 2 vidas (titular + dependente direto)', 'A partir de 2 ou 3 vidas (sócios, funcionários e dependentes)'],
+        ['Tipos de Vidas Permitidas', 'Apenas titular MEI, dependentes diretos e funcionário registrado', 'Sócios no contrato social, colaboradores CLT, estagiários e familiares'],
+        ['Diferenciação de Planos', 'Mesmo plano para todo o grupo', 'Possibilidade de planos superiores para diretoria e padrão para equipe'],
+        ['Aproveitamento de Carências', 'Redução promocional conforme tempo de permanência anterior', 'Redução promocional e isenção total de carências a partir de 30 vidas']
+      ]
+    },
+    keyTakeaways: [
+      'Empresas LTDA e SLU não precisam aguardar 6 meses de abertura para contratar.',
+      'Contratação a partir de 2 vidas somando sócios, funcionários e familiares.',
+      'Coparticipação reduz os custos fixos da empresa em até 30% ao mês.',
+      'Solicite um estudo comparativo gratuito entre as maiores operadoras e seguradoras do país.'
+    ],
+    customWhatsappText: 'Olá! Gostaria de receber um estudo de plano de saúde empresarial PME para minha empresa.',
+    ctaTitle: 'Quer reduzir os custos de saúde da sua empresa?',
+    ctaDescription: 'Elaboramos um estudo comparativo completo entre Amil, Bradesco, SulAmérica, Porto Saúde, GNDI e outras opções para o seu CNPJ.'
   }
 ];
 
@@ -603,5 +759,7 @@ export const BLOG_CATEGORIES = [
   'Todos',
   'Casos Especiais & Riscos',
   'Guia de Operadoras',
-  'Como Funciona na Prática'
+  'Como Funciona na Prática',
+  'Planos Empresariais & MEI'
 ];
+

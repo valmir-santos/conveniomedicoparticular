@@ -7,29 +7,33 @@ import { BROKER_INFO } from '../data/siteData';
 import { Check, AlertCircle, ArrowRight, HelpCircle, Building2, Briefcase, FileCheck } from 'lucide-react';
 
 export const MeiPage: React.FC = () => {
-  const pageTitle = "Convênio médico para MEI em São Paulo";
-  const pageDescription = "Tabela de convênio médico para MEI em São Paulo a partir de 2 vidas. Saiba quando vale a pena, regras das operadoras e a verdade sobre abrir CNPJ só pelo plano.";
+  const pageTitle = "Convênio Médico para MEI: Regras, Valores e Cotação";
+  const pageDescription = "Tabela de convênio médico para MEI a partir de 2 vidas em São Paulo, Rio de Janeiro, Brasília e Paraná. Economia real de 20% a 35%, regras de aceitação e documentação.";
 
   const faqList = [
     {
       question: 'Vale a pena abrir MEI só para pagar menos no plano de saúde?',
-      answer: 'Na imensa maioria das vezes, não vale a pena. Manter um MEI gera custo fixo mensal da guia do DAS (cerca de R$ 75 a R$ 80 todo mês) e obrigação de declaração anual na Receita. Se você não tem atividade econômica real, o custo tributário e o risco de cancelamento anulam a economia da mensalidade.'
+      answer: 'Na imensa maioria das vezes, não vale a pena. Manter um MEI gera custo fixo mensal da guia do DAS (cerca de R$ 75 a R$ 85 todo mês) e obrigação de declaração anual na Receita. Se você não tem atividade econômica real, o custo tributário e o risco de cancelamento anulam a economia da mensalidade.'
     },
     {
       question: 'Quantas vidas são necessárias para contratar convênio pelo MEI?',
-      answer: 'A grande maioria das operadoras em São Paulo exige no mínimo 2 vidas (o titular do MEI + 1 dependente legal, como cônjuge ou filho, ou 1 funcionário registrado no eSocial).'
+      answer: 'A grande maioria das operadoras e seguradoras exige no mínimo 2 vidas (o titular do MEI + 1 dependente legal, como cônjuge ou filho, ou 1 funcionário registrado no eSocial).'
     },
     {
       question: 'Preciso ter quanto tempo de MEI aberto?',
-      answer: 'A maior parte das operadoras e seguradoras exige um tempo mínimo de 6 meses de constituição do CNPJ ativo na Receita Federal para aceitar a proposta comercial.'
+      answer: 'A maior parte das operadoras e seguradoras exige um tempo mínimo de 6 meses contínuos de constituição do CNPJ ativo na Receita Federal para aceitar a proposta comercial.'
     },
     {
-      question: 'Quais documentos o MEI precisa apresentar?',
-      answer: 'Cartão CNPJ atualizado, Certificado da Condição de Microempreendedor Individual (CCMEI), documento com foto do titular e certidão de casamento/nascimento para comprovar o vínculo dos dependentes.'
+      question: 'Quais documentos o MEI precisa apresentar na contratação?',
+      answer: 'Cartão CNPJ atualizado, Certificado da Condição de Microempreendedor Individual (CCMEI), documento com foto do titular (RG/CNH), comprovante de endereço e certidão de casamento/nascimento para comprovar o vínculo dos dependentes.'
+    },
+    {
+      question: 'Em quais regiões o atendimento MEI está disponível?',
+      answer: 'Atendemos microempreendedores em São Paulo (capital, Grande SP e interior), Rio de Janeiro, Distrito Federal (Brasília), Curitiba/Paraná e contratação digital para todo o Brasil.'
     },
     {
       question: 'Como funciona o reajuste do plano de saúde MEI?',
-      answer: 'O reajuste anual é calculado no aniversário do contrato com base no agrupamento de contratos coletivos (pool de risco de pequenas empresas) da operadora, além da variação por faixa etária.'
+      answer: 'O reajuste anual é calculado no aniversário do contrato com base no agrupamento de contratos coletivos (pool de risco de pequenas empresas até 29 vidas) da operadora, além da variação por faixa etária.'
     }
   ];
 
@@ -54,7 +58,7 @@ export const MeiPage: React.FC = () => {
       <section className="bg-[#123A5F] text-white py-12 sm:py-16 px-4 sm:px-8 border-b border-slate-800">
         <div className="max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-[#D97706]/20 text-[#FDE68A] text-xs font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-4 border border-[#D97706]/30">
-            Contratação para Microempreendedores
+            Contratação para Microempreendedores (MEI)
           </div>
 
           <h1 className="serif text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white leading-tight mb-6">
@@ -62,12 +66,12 @@ export const MeiPage: React.FC = () => {
           </h1>
 
           <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-sans font-light">
-            Se você já possui um MEI ativo e trabalha no seu negócio em São Paulo, o convênio empresarial pode gerar uma economia real de 20% a 35% na mensalidade. Aqui, analisamos a sua tabela com transparência: vendemos para quem realmente é MEI e orientamos quem só tem CPF a não criar problemas fiscais.
+            Se você já possui um MEI ativo com faturamento real em São Paulo, Rio de Janeiro, Brasília, Paraná ou qualquer região do Brasil, o convênio empresarial gera uma economia de até 35% na mensalidade. Analisamos a sua tabela com transparência: orientamos quem realmente é MEI e protegemos quem só tem CPF para não criar obrigações fiscais desnecessárias.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
             <a
-              href={`${BROKER_INFO.whatsappBaseUrl}?text=${encodeURIComponent('Olá! Tenho um MEI ativo em São Paulo e gostaria de receber a cotação de convênio a partir de 2 vidas.')}`}
+              href={`${BROKER_INFO.whatsappBaseUrl}?text=${encodeURIComponent('Olá! Tenho um MEI ativo e gostaria de receber a cotação de convênio a partir de 2 vidas.')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1EBE5D] text-white font-bold text-sm sm:text-base py-3.5 px-7 rounded-full uppercase tracking-wider transition-transform hover:scale-[1.02] shadow-md text-center"
@@ -75,7 +79,7 @@ export const MeiPage: React.FC = () => {
               <span>Cotar tabela MEI no WhatsApp</span>
             </a>
             <span className="text-xs text-slate-300 sm:text-left text-center">
-              Análise rápida de CNPJ e operadoras no mesmo dia útil.
+              Análise de CNPJ e envio de tabelas no mesmo dia útil.
             </span>
           </div>
         </div>
@@ -87,19 +91,19 @@ export const MeiPage: React.FC = () => {
         {/* 1. Quando o MEI é a escolha certa */}
         <section className="space-y-4">
           <h2 className="serif text-xl sm:text-2xl font-bold text-[#123A5F] border-b border-gray-200 pb-2">
-            Quando o MEI é a escolha certa
+            Quando contratar pelo MEI é a escolha certa
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            O plano de saúde via MEI é uma excelente escolha quando você já possui uma empresa aberta com atividade real — seja você um prestador de serviços, comerciante, artesão ou profissional autônomo formalizado — e deseja incluir pelo menos mais uma pessoa da sua família (cônjuge ou filho) ou o funcionário registrado do seu negócio.
+            O plano de saúde via MEI é uma excelente escolha quando você já possui uma empresa aberta com atividade real — seja você prestador de serviços, comerciante, consultor ou profissional autônomo formalizado — e deseja incluir pelo menos mais uma pessoa da sua família (cônjuge ou filho) ou o funcionário registrado do seu negócio.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Nesse cenário, você aproveita as tabelas empresariais das operadoras em São Paulo (como Amil, HapVida Notredame, Bradesco Saúde, SulAmérica e Porto Seguro) com redução significativa de custo em relação aos planos avulsos.
+            Nesse formato, você tem acesso às tabelas corporativas das principais operadoras e seguradoras (como Amil, Bradesco Saúde, SulAmérica, Porto Saúde, GNDI/Hapvida, Trasmontano e São Cristóvão) com custos até 35% menores que as linhas convencionais.
           </p>
 
           <SectionWhatsAppCta
             label="Seu MEI tem mais de 6 meses de abertura?"
-            sublabel="Mande o CNPJ e as idades para puxarmos as tabelas liberadas"
-            messageText="Olá! Gostaria de cotar plano de saúde com meu CNPJ MEI em São Paulo."
+            sublabel="Mande o número do CNPJ e as idades para puxarmos as tabelas liberadas"
+            messageText="Olá! Gostaria de cotar plano de saúde com meu CNPJ MEI."
           />
         </section>
 

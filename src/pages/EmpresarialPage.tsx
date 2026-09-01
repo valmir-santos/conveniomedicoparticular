@@ -7,25 +7,33 @@ import { BROKER_INFO } from '../data/siteData';
 import { Building, Users, Check, ArrowRight, HelpCircle, FileSpreadsheet, PieChart } from 'lucide-react';
 
 export const EmpresarialPage: React.FC = () => {
-  const pageTitle = "Convênio médico empresarial em São Paulo";
-  const pageDescription = "Planos de saúde empresariais para pequenas e médias empresas em São Paulo. Estudo de custos, coparticipação inteligente e redução de carências a partir de 2 vidas.";
+  const pageTitle = "Convênio Médico Empresarial (PME): Cotação e Valores";
+  const pageDescription = "Planos de saúde empresariais para pequenas e médias empresas (PME) a partir de 2 vidas em São Paulo, Rio de Janeiro, Brasília, Paraná e todo o Brasil. Redução de carências e coparticipação inteligente.";
 
   const faqList = [
     {
       question: 'A partir de quantas vidas posso contratar o convênio empresarial?',
-      answer: 'A maioria das operadoras e seguradoras em São Paulo aceita a contratação a partir de 2 vidas, somando sócios, administradores, funcionários registrados no eSocial e seus respectivos dependentes legais.'
+      answer: 'A grande maioria das operadoras e seguradoras aceita contratação a partir de 2 vidas, somando sócios (LTDA, SLU, S/A), funcionários registrados no eSocial e seus dependentes legais (cônjuge e filhos).'
+    },
+    {
+      question: 'Qual a diferença entre contratar por MEI e por empresa LTDA/SLU?',
+      answer: 'Empresas LTDA, SLU ou EIRELI podem contratar o plano imediatamente após a emissão do contrato social na Junta Comercial (sem carência de tempo de CNPJ). Já o MEI exige no mínimo 6 meses de CNPJ ativo na Receita Federal.'
     },
     {
       question: 'O que é e como funciona a coparticipação corporativa?',
-      answer: 'É um modelo onde a empresa paga uma mensalidade fixa significativamente mais baixa (até 30% menor) e o colaborador paga uma pequena porcentagem apenas quando realiza consultas ou exames simples, com travas e limites por procedimento.'
+      answer: 'É um modelo onde a empresa paga uma mensalidade fixa até 30% mais baixa e o colaborador paga uma pequena taxa apenas quando realiza consultas ou exames simples, com limitadores por procedimento.'
     },
     {
       question: 'Como funciona a inclusão e exclusão de funcionários ao longo do ano?',
-      answer: 'A movimentação cadastral é feita 100% online no portal da operadora. Novas admissões são incluídas no prazo da contratação e colaboradores demitidos são excluídos no fechamento da fatura mensal.'
+      answer: 'A movimentação cadastral é feita 100% online no portal da operadora. Novas admissões são incluídas no prazo da contratação e colaboradores desligados são excluídos no fechamento da fatura mensal.'
+    },
+    {
+      question: 'Quais regiões possuem atendimento para planos PME?',
+      answer: 'Atendemos empresas em São Paulo (capital e interior), Rio de Janeiro, Distrito Federal (Brasília), Curitiba/Paraná e apólices de abrangência nacional em todas as regiões do Brasil.'
     },
     {
       question: 'Como é calculado o reajuste anual do plano empresarial?',
-      answer: 'O reajuste anual é composto pela variação dos custos médico-hospitalares (VCMH) e pelo índice de sinistralidade (volume de utilização do grupo de colaboradores ao longo do ano).'
+      answer: 'Para contratos de 2 a 29 vidas, o reajuste anual é calculado com base no agrupamento de contratos coletivos (pool de risco) da operadora, além da variação por faixa etária quando houver.'
     }
   ];
 
@@ -50,7 +58,7 @@ export const EmpresarialPage: React.FC = () => {
       <section className="bg-[#123A5F] text-white py-12 sm:py-16 px-4 sm:px-8 border-b border-slate-800">
         <div className="max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-[#D97706]/20 text-[#FDE68A] text-xs font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-4 border border-[#D97706]/30">
-            Pequenas e Médias Empresas em São Paulo
+            Pequenas e Médias Empresas (PME)
           </div>
 
           <h1 className="serif text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white leading-tight mb-6">
@@ -58,20 +66,20 @@ export const EmpresarialPage: React.FC = () => {
           </h1>
 
           <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-sans font-light">
-            Estruturamos planos de saúde corporativos para micro, pequenas e médias empresas na capital paulista e região metropolitana, com foco em equilíbrio financeiro na folha de pagamento e ampla rede de hospitais para os seus colaboradores.
+            Planos de saúde corporativos a partir de 2 vidas para empresas em São Paulo, Rio de Janeiro, Brasília, Paraná e cobertura nacional. Realizamos o estudo comparativo de custos entre as principais operadoras e seguradoras com foco em rede hospitalar de qualidade e gestão eficiente.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
             <a
-              href={`${BROKER_INFO.whatsappBaseUrl}?text=${encodeURIComponent('Olá! Gostaria de um estudo de plano de saúde empresarial para a minha empresa em São Paulo.')}`}
+              href={`${BROKER_INFO.whatsappBaseUrl}?text=${encodeURIComponent('Olá! Gostaria de cotar plano de saúde empresarial PME para minha empresa.')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1EBE5D] text-white font-bold text-sm sm:text-base py-3.5 px-7 rounded-full uppercase tracking-wider transition-transform hover:scale-[1.02] shadow-md text-center"
             >
-              <span>Solicitar estudo corporativo</span>
+              <span>Cotar tabela PME no WhatsApp</span>
             </a>
             <span className="text-xs text-slate-300 sm:text-left text-center">
-              Análise comparativa de custos para a sua empresa no mesmo dia.
+              Estudo comparativo de operadoras sem custo para sua empresa.
             </span>
           </div>
         </div>
