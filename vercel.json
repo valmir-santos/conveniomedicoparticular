@@ -1,6 +1,31 @@
 {
   "redirects": [
     {
+      "source": "/index.php",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-admin/:slug*{/}?",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-login.php",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/comments/feed{/}?",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/feed{/}?",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
       "source": "/pagina-exemplo{/}?",
       "destination": "/",
       "permanent": true
