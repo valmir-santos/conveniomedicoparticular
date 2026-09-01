@@ -173,25 +173,49 @@
   <!-- Blog e Artigos do Cluster Especializado -->
   <url>
     <loc>https://conveniomedicoparticular.com.br/blog</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://conveniomedicoparticular.com.br/blog/carencia-plano-de-saude-quanto-tempo</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://conveniomedicoparticular.com.br/blog/como-funciona-coparticipacao-plano-de-saude-vale-a-pena</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://conveniomedicoparticular.com.br/blog/abrir-mei-so-para-plano-de-saude-risco</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://conveniomedicoparticular.com.br/blog/diferenca-plano-individual-coletivo-por-adesao</loc>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://conveniomedicoparticular.com.br/blog/quais-operadoras-ainda-vendem-plano-individual-sao-paulo</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://conveniomedicoparticular.com.br/blog/carencia-plano-de-saude-quanto-tempo</loc>
-    <lastmod>2026-08-31</lastmod>
+    <loc>https://conveniomedicoparticular.com.br/blog/como-incluir-dependentes-plano-de-saude-familiar</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://conveniomedicoparticular.com.br/blog/plano-de-saude-para-idosos-terceira-idade-sem-reajuste</loc>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -199,13 +223,13 @@
   <!-- Institucional e Contato -->
   <url>
     <loc>https://conveniomedicoparticular.com.br/sobre</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://conveniomedicoparticular.com.br/contato</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
