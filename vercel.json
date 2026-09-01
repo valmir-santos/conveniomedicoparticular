@@ -1,4 +1,36 @@
 {
+  "redirects": [
+    {
+      "source": "/pagina-exemplo{/}?",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/blog{/}?",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/:slug*{/}?",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/author/:slug*{/}?",
+      "destination": "/sobre",
+      "permanent": true
+    },
+    {
+      "source": "/explorando-os-beneficios-do-convenio-medico-particular{/}?",
+      "destination": "/convenio-medico-individual-familiar",
+      "permanent": true
+    },
+    {
+      "source": "/os-beneficios-de-um-convenio-medico-particular{/}?",
+      "destination": "/plano-de-saude-sem-cnpj",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",

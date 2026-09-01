@@ -3,15 +3,18 @@
   RewriteEngine On
   RewriteBase /
 
-  # 1. Artigos legados de benefícios redirecionados diretamente (301) para o artigo equivalente no blog
-  RewriteRule ^os-beneficios-de-um-convenio-medico-particular/?$ /blog/abrir-mei-so-para-plano-de-saude-risco [R=301,L]
-  RewriteRule ^explorando-os-beneficios-do-convenio-medico-particular/?$ /blog/abrir-mei-so-para-plano-de-saude-risco [R=301,L]
+  # 1. Artigos legados de benefícios redirecionados diretamente (301)
+  RewriteRule ^os-beneficios-de-um-convenio-medico-particular/?$ /plano-de-saude-sem-cnpj [R=301,L]
+  RewriteRule ^explorando-os-beneficios-do-convenio-medico-particular/?$ /convenio-medico-individual-familiar [R=301,L]
 
   # 2. Categoria legada de blog apontando para a nova listagem do blog (301)
-  RewriteRule ^category/blog/?$ /blog [R=301,L]
+  RewriteRule ^category/.*$ /blog [R=301,L]
 
-  # 3. Página de teste do WordPress marcada como excluída definitivamente (410 Gone)
-  RewriteRule ^pagina-exemplo/?$ - [G,L]
+  # 3. Páginas de autor legadas
+  RewriteRule ^author/.*$ /sobre [R=301,L]
+
+  # 4. Página de exemplo
+  RewriteRule ^pagina-exemplo/?$ / [R=301,L]
 
   # SPA Fallback para React Router
   RewriteCond %{REQUEST_FILENAME} !-f
