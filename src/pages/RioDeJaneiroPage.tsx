@@ -216,7 +216,7 @@ export const RioDeJaneiroPage: React.FC = () => {
               <span className="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Referência Médica</span>
               <h3 className="serif font-bold text-lg text-[#123A5F] mt-2 mb-1">Bradesco Saúde RJ</h3>
               <p className="text-xs text-gray-600 mb-3">Cobertura premium em hospitais como Copa Star, Samaritano e São José, com sistema de reembolso ágil.</p>
-              <Link to="/operadoras/bradesco" className="text-xs font-bold text-[#D97706] inline-flex items-center gap-1 hover:underline">
+              <Link to="/operadoras/bradesco-saude" className="text-xs font-bold text-[#D97706] inline-flex items-center gap-1 hover:underline">
                 <span>Ver planos Bradesco RJ</span>
                 <ChevronRight className="w-3.5 h-3.5" />
               </Link>

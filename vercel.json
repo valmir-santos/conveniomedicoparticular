@@ -68,6 +68,36 @@
       "source": "/plano-de-saude-parana",
       "destination": "/plano-de-saude-curitiba-parana",
       "permanent": true
+    },
+    {
+      "source": "/operadoras/alice",
+      "destination": "/operadoras/alice-saude",
+      "permanent": true
+    },
+    {
+      "source": "/operadoras/hapvida",
+      "destination": "/operadoras/hapvida-notredame",
+      "permanent": true
+    },
+    {
+      "source": "/operadoras/notredame-intermedica",
+      "destination": "/operadoras/hapvida-notredame",
+      "permanent": true
+    },
+    {
+      "source": "/operadoras/porto-saude",
+      "destination": "/operadoras/porto-seguro",
+      "permanent": true
+    },
+    {
+      "source": "/operadoras/bradesco",
+      "destination": "/operadoras/bradesco-saude",
+      "permanent": true
+    },
+    {
+      "source": "/operadoras/omni-saude",
+      "destination": "/operadoras",
+      "permanent": true
     }
   ],
   "headers": [

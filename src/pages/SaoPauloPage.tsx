@@ -226,7 +226,7 @@ export const SaoPauloPage: React.FC = () => {
               <span className="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Premium & Reembolso</span>
               <h3 className="serif font-bold text-lg text-[#123A5F] mt-2 mb-1">Bradesco & SulAmérica</h3>
               <p className="text-xs text-gray-600 mb-3">Redes hospitalares de primeira linha (Sírio-Libanês, Einstein, Oswaldo Cruz) com opção de reembolso médico.</p>
-              <Link to="/operadoras/bradesco" className="text-xs font-bold text-[#D97706] inline-flex items-center gap-1 hover:underline">
+              <Link to="/operadoras/bradesco-saude" className="text-xs font-bold text-[#D97706] inline-flex items-center gap-1 hover:underline">
                 <span>Ver planos Bradesco Saúde</span>
                 <ChevronRight className="w-3.5 h-3.5" />
               </Link>
