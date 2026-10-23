@@ -5,6 +5,7 @@ import { ServiceSchema, FaqSchema } from '../components/SchemaJsonLd';
 import { SectionWhatsAppCta } from '../components/SectionWhatsAppCta';
 import { BROKER_INFO } from '../data/siteData';
 import { Check, AlertCircle, ArrowRight, HelpCircle, Building2, Briefcase, FileCheck } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const MeiPage: React.FC = () => {
   const pageTitle = "Convênio Médico para MEI: Regras, Valores e Cotação";
@@ -39,6 +40,7 @@ export const MeiPage: React.FC = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen text-[#1A1A1A]">
+      <Seo title={pageTitle} description={pageDescription} path="/convenio-medico-mei" />
       <ServiceSchema
         serviceName={pageTitle}
         description={pageDescription}

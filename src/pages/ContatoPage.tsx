@@ -3,6 +3,7 @@ import { Breadcrumb } from '../components/Breadcrumb';
 import { ServiceSchema } from '../components/SchemaJsonLd';
 import { BROKER_INFO } from '../data/siteData';
 import { MessageCircle, Phone, MapPin, Clock, ShieldCheck, Mail, ArrowRight } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const ContatoPage: React.FC = () => {
   const pageTitle = "Fale com o Corretor | Convênio Médico Particular";
@@ -10,6 +11,7 @@ export const ContatoPage: React.FC = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen text-[#1A1A1A]">
+      <Seo title={pageTitle} description={pageDescription} path="/contato" />
       <ServiceSchema
         serviceName="Atendimento e Cotação de Convênios Médicos"
         description={pageDescription}

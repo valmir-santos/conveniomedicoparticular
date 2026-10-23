@@ -22,7 +22,7 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({ items }) => {
       '@type': 'ListItem',
       'position': index + 1,
       'name': item.label,
-      ...(item.url ? { 'item': `https://conveniomedicoparticular.com.br${item.url}` } : {})
+      ...(item.url ? { 'item': `https://www.conveniomedicoparticular.com.br${item.url}` } : {})
     }))
   };
 

@@ -5,6 +5,7 @@ import { ServiceSchema, FaqSchema } from '../components/SchemaJsonLd';
 import { SectionWhatsAppCta } from '../components/SectionWhatsAppCta';
 import { BROKER_INFO } from '../data/siteData';
 import { Table, MessageCircle, AlertCircle, Check, HelpCircle, ArrowRight } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const TabelaPrecosPage: React.FC = () => {
   const pageTitle = "Tabela de preços convênio médico São Paulo 2026";
@@ -57,6 +58,7 @@ export const TabelaPrecosPage: React.FC = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen text-[#1A1A1A]">
+      <Seo title={pageTitle} description={pageDescription} path="/tabela-de-precos-convenio-medico-sao-paulo" />
       <ServiceSchema
         serviceName={pageTitle}
         description={pageDescription}

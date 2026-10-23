@@ -27,7 +27,7 @@ export const ServiceSchema: React.FC<ServiceSchemaProps> = ({
     'name': serviceName,
     'serviceType': serviceType,
     'description': description,
-    'url': `https://conveniomedicoparticular.com.br${url}`,
+    'url': `https://www.conveniomedicoparticular.com.br${url}`,
     'provider': {
       '@type': 'InsuranceAgency',
       'name': BROKER_INFO.name,

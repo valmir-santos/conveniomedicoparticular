@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://conveniomedicoparticular.com.br/sitemap.xml
+Sitemap: https://www.conveniomedicoparticular.com.br/sitemap.xml

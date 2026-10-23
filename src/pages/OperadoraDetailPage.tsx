@@ -1,11 +1,13 @@
 import React from 'react';
-import { useParams, Link, Navigate } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
+import { NotFoundPage } from './NotFoundPage';
 import { OPERATORS_DETAILED } from '../data/operatorsData';
 import { Breadcrumb } from '../components/Breadcrumb';
 import { ServiceSchema, FaqSchema } from '../components/SchemaJsonLd';
 import { SectionWhatsAppCta } from '../components/SectionWhatsAppCta';
 import { BROKER_INFO } from '../data/siteData';
 import { ShieldCheck, Check, AlertCircle, MapPin, Building, HelpCircle, ArrowRight, XCircle } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const OperadoraDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -13,7 +15,7 @@ export const OperadoraDetailPage: React.FC = () => {
   const operator = OPERATORS_DETAILED.find((op) => op.slug === slug);
 
   if (!operator) {
-    return <Navigate to="/operadoras" replace />;
+    return <NotFoundPage />;
   }
 
   const pageTitle = `${operator.name} em São Paulo: planos, rede e como contratar`;
@@ -21,6 +23,7 @@ export const OperadoraDetailPage: React.FC = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen text-[#1A1A1A]">
+      <Seo title={pageTitle} description={pageDescription} path={`/operadoras/${operator.slug}`} />
       <ServiceSchema
         serviceName={pageTitle}
         description={pageDescription}

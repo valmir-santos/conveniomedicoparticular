@@ -5,6 +5,7 @@ import { ServiceSchema, FaqSchema } from '../components/SchemaJsonLd';
 import { SectionWhatsAppCta } from '../components/SectionWhatsAppCta';
 import { BROKER_INFO } from '../data/siteData';
 import { ShieldCheck, Check, AlertCircle, ArrowRight, Building2, MapPin, HelpCircle, CheckCircle2, ChevronRight, Phone, MessageCircle } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const SaoPauloPage: React.FC = () => {
   const pageTitle = "Plano de Saúde em São Paulo (Capital e Grande SP)";
@@ -68,6 +69,7 @@ export const SaoPauloPage: React.FC = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen text-[#1A1A1A]">
+      <Seo title={pageTitle} description={pageDescription} path="/plano-de-saude-sao-paulo" />
       <ServiceSchema
         serviceName={pageTitle}
         description={pageDescription}

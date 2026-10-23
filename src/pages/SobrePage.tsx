@@ -5,6 +5,7 @@ import { ServiceSchema } from '../components/SchemaJsonLd';
 import { SectionWhatsAppCta } from '../components/SectionWhatsAppCta';
 import { BROKER_INFO } from '../data/siteData';
 import { ShieldCheck, MapPin, Check, Phone, Mail, Award, Clock, HeartHandshake } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const SobrePage: React.FC = () => {
   const pageTitle = "Sobre a Corretora | Convênio Médico Particular";
@@ -12,6 +13,7 @@ export const SobrePage: React.FC = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen text-[#1A1A1A]">
+      <Seo title={pageTitle} description={pageDescription} path="/sobre" />
       <ServiceSchema
         serviceName="Consultoria e Corretagem de Planos de Saúde"
         description={pageDescription}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
@@ -23,10 +23,13 @@ import { SaoPauloPage } from './pages/SaoPauloPage';
 import { RioDeJaneiroPage } from './pages/RioDeJaneiroPage';
 import { BrasiliaPage } from './pages/BrasiliaPage';
 import { ParanaPage } from './pages/ParanaPage';
+import { NotFoundPage } from './pages/NotFoundPage';
 
+// O roteador fica de fora (BrowserRouter no navegador, StaticRouter no build),
+// para o mesmo App gerar o HTML de cada página na pré-renderização.
 export default function App() {
   return (
-    <Router>
+    <>
       <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-[#F9FAFB] text-[#1A1A1A]">
         {/* Cabeçalho com identificação SUSEP, endereço em SP e contatos */}
@@ -52,9 +55,9 @@ export default function App() {
             <Route path="/plano-de-saude-sao-paulo" element={<SaoPauloPage />} />
             <Route path="/plano-de-saude-rio-de-janeiro" element={<RioDeJaneiroPage />} />
             <Route path="/plano-de-saude-brasilia" element={<BrasiliaPage />} />
-            <Route path="/plano-de-saude-distrito-federal" element={<BrasiliaPage />} />
+            <Route path="/plano-de-saude-distrito-federal" element={<Navigate to="/plano-de-saude-brasilia" replace />} />
             <Route path="/plano-de-saude-curitiba-parana" element={<ParanaPage />} />
-            <Route path="/plano-de-saude-parana" element={<ParanaPage />} />
+            <Route path="/plano-de-saude-parana" element={<Navigate to="/plano-de-saude-curitiba-parana" replace />} />
 
             {/* Cotação e Tabela de Preços */}
             <Route path="/tabela-de-precos-convenio-medico-sao-paulo" element={<TabelaPrecosPage />} />
@@ -71,8 +74,8 @@ export default function App() {
             <Route path="/sobre" element={<SobrePage />} />
             <Route path="/contato" element={<ContatoPage />} />
 
-            {/* Fallback */}
-            <Route path="*" element={<Navigate to="/" replace />} />
+            {/* Página inexistente: 404 de verdade, sem redirecionar para a home */}
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
 
@@ -82,6 +85,6 @@ export default function App() {
         {/* Botão de WhatsApp flutuante fixo */}
         <FloatingWhatsApp />
       </div>
-    </Router>
+    </>
   );
 }

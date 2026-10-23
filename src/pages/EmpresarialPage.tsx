@@ -5,6 +5,7 @@ import { ServiceSchema, FaqSchema } from '../components/SchemaJsonLd';
 import { SectionWhatsAppCta } from '../components/SectionWhatsAppCta';
 import { BROKER_INFO } from '../data/siteData';
 import { Building, Users, Check, ArrowRight, HelpCircle, FileSpreadsheet, PieChart } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const EmpresarialPage: React.FC = () => {
   const pageTitle = "Convênio Médico Empresarial (PME): Cotação e Valores";
@@ -39,6 +40,7 @@ export const EmpresarialPage: React.FC = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen text-[#1A1A1A]">
+      <Seo title={pageTitle} description={pageDescription} path="/convenio-medico-empresarial" />
       <ServiceSchema
         serviceName={pageTitle}
         description={pageDescription}

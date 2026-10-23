@@ -10,6 +10,8 @@ import { FinalCta } from '../components/FinalCta';
 import { FaqSchema } from '../components/SchemaJsonLd';
 import { ModalityItem, BROKER_INFO, FAQ_LIST } from '../data/siteData';
 import { MessageCircle, X } from 'lucide-react';
+import { Seo } from '../components/Seo';
+import { DEFAULT_TITLE, DEFAULT_DESCRIPTION } from '../lib/site';
 
 export const HomePage: React.FC = () => {
   const [selectedModalityModal, setSelectedModalityModal] = useState<ModalityItem | null>(null);
@@ -29,6 +31,7 @@ export const HomePage: React.FC = () => {
 
   return (
     <>
+      <Seo title={DEFAULT_TITLE} description={DEFAULT_DESCRIPTION} path="/" />
       <FaqSchema faqs={homeFaqs} />
 
       {/* Seção 1 — Hero com Triagem */}

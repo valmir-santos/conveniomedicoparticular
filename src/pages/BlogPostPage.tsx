@@ -1,5 +1,7 @@
 import React from 'react';
-import { useParams, Link, Navigate } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
+import { NotFoundPage } from './NotFoundPage';
+import { formatDateBR } from '../lib/site';
 import { BLOG_POSTS, BlogPost } from '../data/blogData';
 import { BROKER_INFO } from '../data/siteData';
 import { 
@@ -17,6 +19,7 @@ import {
   Building2,
   FileCheck
 } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const BlogPostPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -24,7 +27,7 @@ export const BlogPostPage: React.FC = () => {
   const post = BLOG_POSTS.find((p) => p.slug === slug);
 
   if (!post) {
-    return <Navigate to="/blog" replace />;
+    return <NotFoundPage />;
   }
 
   // Outros posts do cluster para linkagem interna cruzada
@@ -42,16 +45,16 @@ export const BlogPostPage: React.FC = () => {
       "@type": "Person",
       "name": post.author.name,
       "jobTitle": post.author.role,
-      "url": `https://conveniomedicoparticular.com.br${post.author.profileUrl}`
+      "url": `https://www.conveniomedicoparticular.com.br${post.author.profileUrl}`
     },
     "publisher": {
       "@type": "Organization",
       "name": BROKER_INFO.name,
-      "url": "https://conveniomedicoparticular.com.br"
+      "url": "https://www.conveniomedicoparticular.com.br"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://conveniomedicoparticular.com.br/blog/${post.slug}`
+      "@id": `https://www.conveniomedicoparticular.com.br/blog/${post.slug}`
     }
   };
 
@@ -63,19 +66,19 @@ export const BlogPostPage: React.FC = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Início",
-        "item": "https://conveniomedicoparticular.com.br"
+        "item": "https://www.conveniomedicoparticular.com.br"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "https://conveniomedicoparticular.com.br/blog"
+        "item": "https://www.conveniomedicoparticular.com.br/blog"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": post.title,
-        "item": `https://conveniomedicoparticular.com.br/blog/${post.slug}`
+        "item": `https://www.conveniomedicoparticular.com.br/blog/${post.slug}`
       }
     ]
   };
@@ -95,6 +98,7 @@ export const BlogPostPage: React.FC = () => {
 
   return (
     <article className="bg-[#F9FAFB] min-h-screen py-8 sm:py-12">
+      <Seo title={post.title} description={post.metaDescription} path={`/blog/${post.slug}`} type="article" />
       {/* Schemas JSON-LD */}
       <script
         type="application/ld+json"
@@ -130,7 +134,7 @@ export const BlogPostPage: React.FC = () => {
             </span>
             <span className="flex items-center gap-1">
               <Calendar className="w-3.5 h-3.5" />
-              {new Date(post.publishDate).toLocaleDateString('pt-BR')}
+              {formatDateBR(post.publishDate)}
             </span>
             <span>•</span>
             <span className="flex items-center gap-1">

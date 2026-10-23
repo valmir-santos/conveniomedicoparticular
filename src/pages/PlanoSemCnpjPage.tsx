@@ -5,6 +5,7 @@ import { ServiceSchema, FaqSchema } from '../components/SchemaJsonLd';
 import { SectionWhatsAppCta } from '../components/SectionWhatsAppCta';
 import { BROKER_INFO } from '../data/siteData';
 import { ShieldCheck, Check, AlertCircle, ArrowRight, Clock, HelpCircle, FileText, ChevronRight } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const PlanoSemCnpjPage: React.FC = () => {
   const pageTitle = "Plano de saúde para quem não tem CNPJ, em São Paulo";
@@ -39,6 +40,7 @@ export const PlanoSemCnpjPage: React.FC = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen text-[#1A1A1A]">
+      <Seo title={pageTitle} description={pageDescription} path="/plano-de-saude-sem-cnpj" />
       <ServiceSchema
         serviceName={pageTitle}
         description={pageDescription}

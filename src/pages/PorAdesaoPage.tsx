@@ -5,6 +5,7 @@ import { ServiceSchema, FaqSchema } from '../components/SchemaJsonLd';
 import { SectionWhatsAppCta } from '../components/SectionWhatsAppCta';
 import { BROKER_INFO } from '../data/siteData';
 import { Check, AlertCircle, ArrowRight, HelpCircle, GraduationCap, Briefcase, Award } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const PorAdesaoPage: React.FC = () => {
   const pageTitle = "Plano de saúde por adesão em São Paulo";
@@ -31,6 +32,7 @@ export const PorAdesaoPage: React.FC = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen text-[#1A1A1A]">
+      <Seo title={pageTitle} description={pageDescription} path="/convenio-medico-por-adesao" />
       <ServiceSchema
         serviceName={pageTitle}
         description={pageDescription}

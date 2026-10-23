@@ -6,6 +6,7 @@ import { ServiceSchema } from '../components/SchemaJsonLd';
 import { SectionWhatsAppCta } from '../components/SectionWhatsAppCta';
 import { BROKER_INFO } from '../data/siteData';
 import { Building2, ChevronRight, Check, ShieldCheck } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const OperadorasListPage: React.FC = () => {
   const pageTitle = "Operadoras de Plano de Saúde em São Paulo";
@@ -13,6 +14,7 @@ export const OperadorasListPage: React.FC = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen text-[#1A1A1A]">
+      <Seo title={pageTitle} description={pageDescription} path="/operadoras" />
       <ServiceSchema
         serviceName={pageTitle}
         description={pageDescription}

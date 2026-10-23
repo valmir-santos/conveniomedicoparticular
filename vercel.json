@@ -1,4 +1,8 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/index.php",
@@ -54,12 +58,16 @@
       "source": "/os-beneficios-de-um-convenio-medico-particular{/}?",
       "destination": "/plano-de-saude-sem-cnpj",
       "permanent": true
-    }
-  ],
-  "rewrites": [
+    },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/plano-de-saude-distrito-federal",
+      "destination": "/plano-de-saude-brasilia",
+      "permanent": true
+    },
+    {
+      "source": "/plano-de-saude-parana",
+      "destination": "/plano-de-saude-curitiba-parana",
+      "permanent": true
     }
   ],
   "headers": [

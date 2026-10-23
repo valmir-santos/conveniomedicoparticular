@@ -5,6 +5,7 @@ import { ServiceSchema, FaqSchema } from '../components/SchemaJsonLd';
 import { SectionWhatsAppCta } from '../components/SectionWhatsAppCta';
 import { BROKER_INFO } from '../data/siteData';
 import { ShieldCheck, Check, ArrowRight, Clock, HelpCircle, MapPin, Building, Users, AlertCircle } from 'lucide-react';
+import { Seo } from '../components/Seo';
 
 export const IndividualFamiliarPage: React.FC = () => {
   const pageTitle = "Convênio médico individual e familiar em São Paulo";
@@ -39,6 +40,7 @@ export const IndividualFamiliarPage: React.FC = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen text-[#1A1A1A]">
+      <Seo title={pageTitle} description={pageDescription} path="/convenio-medico-individual-familiar" />
       <ServiceSchema
         serviceName={pageTitle}
         description={pageDescription}

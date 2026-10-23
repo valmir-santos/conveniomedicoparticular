@@ -14,6 +14,8 @@ import {
   MessageCircle,
   FolderOpen
 } from 'lucide-react';
+import { Seo } from '../components/Seo';
+import { formatDateBR } from '../lib/site';
 
 export const BlogListPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Todos');
@@ -36,11 +38,11 @@ export const BlogListPage: React.FC = () => {
     "@type": "Blog",
     "name": "Blog de Convênio Médico em São Paulo — Guia Técnico do Corretor",
     "description": "Artigos práticos sobre prazos de carência, riscos de abrir MEI apenas para ter desconto, operadoras ativas em São Paulo e contratação no CPF.",
-    "url": "https://conveniomedicoparticular.com.br/blog",
+    "url": "https://www.conveniomedicoparticular.com.br/blog",
     "publisher": {
       "@type": "Organization",
       "name": BROKER_INFO.name,
-      "url": "https://conveniomedicoparticular.com.br"
+      "url": "https://www.conveniomedicoparticular.com.br"
     }
   };
 
@@ -52,19 +54,20 @@ export const BlogListPage: React.FC = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Início",
-        "item": "https://conveniomedicoparticular.com.br"
+        "item": "https://www.conveniomedicoparticular.com.br"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog & Guias Práticos",
-        "item": "https://conveniomedicoparticular.com.br/blog"
+        "item": "https://www.conveniomedicoparticular.com.br/blog"
       }
     ]
   };
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen py-8 sm:py-12">
+      <Seo title="Guia do Convênio Médico: carência, coparticipação, MEI e plano no CPF" description="Guia prático do convênio médico em São Paulo escrito por corretor SUSEP: carências, coparticipação, plano no CPF, adesão, MEI, PME, dependentes e planos para idosos." path="/blog" />
       {/* Schemas JSON-LD */}
       <script
         type="application/ld+json"
@@ -204,7 +207,7 @@ export const BlogListPage: React.FC = () => {
                   </span>
                   <span className="flex items-center gap-1">
                     <Calendar className="w-3.5 h-3.5" />
-                    {new Date(post.publishDate).toLocaleDateString('pt-BR')}
+                    {formatDateBR(post.publishDate)}
                   </span>
                   <span>•</span>
                   <span className="flex items-center gap-1">
