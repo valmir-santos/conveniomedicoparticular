@@ -15,14 +15,18 @@ import {
   FolderOpen
 } from 'lucide-react';
 import { Seo } from '../components/Seo';
-import { formatDateBR } from '../lib/site';
+import { formatDateBR, isPublished } from '../lib/site';
+import { useToday } from '../lib/useToday';
 
 export const BlogListPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Todos');
   const [searchTerm, setSearchTerm] = useState<string>('');
+  const today = useToday();
 
   const filteredPosts = useMemo(() => {
     return BLOG_POSTS.filter((post) => {
+      // Artigos agendados só aparecem a partir da data de publicação
+      if (!isPublished(post.publishDate, today)) return false;
       const matchCat = selectedCategory === 'Todos' || post.category === selectedCategory;
       const matchSearch = 
         post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -30,7 +34,7 @@ export const BlogListPage: React.FC = () => {
         post.targetKeyword.toLowerCase().includes(searchTerm.toLowerCase());
       return matchCat && matchSearch;
     });
-  }, [selectedCategory, searchTerm]);
+  }, [selectedCategory, searchTerm, today]);
 
   // Schema de Coleção de Artigos / Blog
   const blogListSchema = {

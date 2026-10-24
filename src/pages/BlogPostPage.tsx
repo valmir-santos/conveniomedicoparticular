@@ -1,7 +1,8 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { NotFoundPage } from './NotFoundPage';
-import { formatDateBR } from '../lib/site';
+import { formatDateBR, isPublished } from '../lib/site';
+import { useToday } from '../lib/useToday';
 import { BLOG_POSTS, BlogPost } from '../data/blogData';
 import { BROKER_INFO } from '../data/siteData';
 import { 
@@ -24,14 +25,16 @@ import { Seo } from '../components/Seo';
 export const BlogPostPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
 
-  const post = BLOG_POSTS.find((p) => p.slug === slug);
+  const today = useToday();
+  const post = BLOG_POSTS.find((p) => p.slug === slug && isPublished(p.publishDate, today));
 
+  // Artigo inexistente ou ainda agendado
   if (!post) {
     return <NotFoundPage />;
   }
 
   // Outros posts do cluster para linkagem interna cruzada
-  const sisterPosts = BLOG_POSTS.filter((p) => p.id !== post.id);
+  const sisterPosts = BLOG_POSTS.filter((p) => p.id !== post.id && isPublished(p.publishDate, today));
 
   // Schemas JSON-LD
   const articleSchema = {

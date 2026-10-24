@@ -7,7 +7,14 @@ import {SeoCollectorContext, SeoData, renderHeadTags} from './components/Seo';
 import {BLOG_POSTS} from './data/blogData';
 import {OPERATORS_DETAILED} from './data/operatorsData';
 
+import {isPublished, todayISO} from './lib/site';
+
 export {SITE_URL} from './lib/site';
+
+// Data do build em São Paulo: artigos com data futura ficam fora até o próximo deploy.
+// Na prévia da Vercel (branch de revisão) os agendados aparecem, para a corretora ler antes do merge.
+export const SHOW_SCHEDULED = process.env.VERCEL_ENV === 'preview';
+export const BUILD_DAY = SHOW_SCHEDULED ? '9999-12-31' : todayISO();
 
 // Rotas indexáveis. A ordem é a do sitemap.
 export const ROUTES: {path: string; lastmod?: string}[] = [
@@ -25,7 +32,7 @@ export const ROUTES: {path: string; lastmod?: string}[] = [
   {path: '/operadoras'},
   ...OPERATORS_DETAILED.map((op) => ({path: `/operadoras/${op.slug}`})),
   {path: '/blog'},
-  ...BLOG_POSTS.map((post) => ({path: `/blog/${post.slug}`, lastmod: post.publishDate})),
+  ...BLOG_POSTS.filter((post) => isPublished(post.publishDate, BUILD_DAY)).map((post) => ({path: `/blog/${post.slug}`, lastmod: post.publishDate})),
   {path: '/sobre'},
   {path: '/contato'},
 ];

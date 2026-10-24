@@ -19,3 +19,10 @@ export const formatDateBR = (isoDate: string) => {
   const [y, m, d] = isoDate.split('-');
   return `${d}/${m}/${y}`;
 };
+
+// Data de hoje em São Paulo, no formato 'AAAA-MM-DD' (o mesmo de publishDate).
+export const todayISO = () =>
+  new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo' }).format(new Date());
+
+// Artigo com data futura fica agendado: não aparece no blog nem abre pelo endereço.
+export const isPublished = (publishDate: string, today: string) => publishDate <= today;

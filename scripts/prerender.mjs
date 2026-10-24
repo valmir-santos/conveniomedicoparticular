@@ -9,7 +9,11 @@ const root = process.cwd();
 const dist = path.join(root, 'dist');
 const ssrEntry = path.join(root, 'dist-ssr', 'entry-server.js');
 
-const { render, ROUTES, SITE_URL } = await import(pathToFileURL(ssrEntry).href);
+const { render, ROUTES, SITE_URL, BUILD_DAY, SHOW_SCHEDULED } = await import(pathToFileURL(ssrEntry).href);
+
+// A data do build vai no HTML para o navegador mostrar os mesmos artigos agendados na primeira renderização.
+const buildDayScript = `<script>window.__BUILD_DAY__=${JSON.stringify(BUILD_DAY)}${SHOW_SCHEDULED ? ';window.__SHOW_SCHEDULED__=true' : ''}</script>`;
+if (SHOW_SCHEDULED) console.log('Prévia: artigos agendados incluídos para revisão.');
 
 const template = fs.readFileSync(path.join(dist, 'index.html'), 'utf-8');
 const HEAD_RE = /<!--seo-head-start-->[\s\S]*?<!--seo-head-end-->/;
@@ -24,7 +28,8 @@ const writePage = (route, file) => {
   if (!seo) throw new Error(`A rota ${route} não tem o componente <Seo>`);
   const page = template
     .replace(HEAD_RE, `<!--seo-head-start-->\n    ${head}\n    <!--seo-head-end-->`)
-    .replace('<!--app-html-->', html);
+    .replace('<!--app-html-->', html)
+    .replace('</head>', `  ${buildDayScript}\n  </head>`);
   const out = path.join(dist, file);
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, page);
