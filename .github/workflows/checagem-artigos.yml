@@ -9,7 +9,9 @@ on:
       - 'src/pages/**'
       - 'conteudo/**'
       - 'scripts/check-posts.ts'
+      - '.github/workflows/**'
   pull_request:
+  workflow_dispatch: # permite rodar na mão pela aba Actions
 
 jobs:
   checar:
