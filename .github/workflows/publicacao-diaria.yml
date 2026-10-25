@@ -18,7 +18,7 @@ jobs:
       SITE: https://www.conveniomedicoparticular.com.br
       INDEXNOW_KEY: 2dc6d58e84578eaf8464705d9011b457
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Ver se há artigo para hoje
         id: hoje
