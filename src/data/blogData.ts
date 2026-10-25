@@ -52,7 +52,7 @@ export const BLOG_POSTS: BlogPost[] = [
       name: 'Andrea Correa Leite',
       role: 'Corretora Habilitada com Registro SUSEP',
       susep: '10.2000204.1',
-      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 10 anos. Atendimento técnico sem atalhos irregulares.',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
       profileUrl: '/sobre'
     },
     introAnswer: 'Na prática, você pode usar o plano para atendimentos de urgência e emergência 24 horas após a vigência do contrato. Para consultas de rotina e exames laboratoriais simples, o prazo habitual da tabela da operadora é de 30 dias; exames de alta complexidade e cirurgias eletivas levam em média 180 dias; e partos a termo têm prazo de 300 dias.',
@@ -143,7 +143,7 @@ export const BLOG_POSTS: BlogPost[] = [
       name: 'Andrea Correa Leite',
       role: 'Corretora Habilitada com Registro SUSEP',
       susep: '10.2000204.1',
-      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 10 anos. Atendimento técnico sem atalhos irregulares.',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
       profileUrl: '/sobre'
     },
     introAnswer: 'Plano com coparticipação é aquele em que a mensalidade fixa é entre 20% e 40% mais barata e você só paga um valor adicional pequeno (fixo ou percentual) nos meses em que fizer consultas, exames ou passar no pronto-socorro. Ele vale muito a pena para pessoas e famílias que usam o convênio de forma preventiva ou eventual.',
@@ -223,7 +223,7 @@ export const BLOG_POSTS: BlogPost[] = [
       name: 'Andrea Correa Leite',
       role: 'Corretora Habilitada com Registro SUSEP',
       susep: '10.2000204.1',
-      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 10 anos. Atendimento técnico sem atalhos irregulares.',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
       profileUrl: '/sobre'
     },
     introAnswer: 'Sim, você pode ter o convênio cancelado de forma unilateral se a operadora identificar que o seu CNPJ MEI foi criado apenas de fachada, está inativo na Receita Federal ou sem recolhimento regular das guias mensais. A contratação empresarial exige comprovação de atividade real e manutenção do CNPJ ativo durante toda a vigência do contrato.',
@@ -300,7 +300,7 @@ export const BLOG_POSTS: BlogPost[] = [
       name: 'Andrea Correa Leite',
       role: 'Corretora Habilitada com Registro SUSEP',
       susep: '10.2000204.1',
-      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 10 anos. Atendimento técnico sem atalhos irregulares.',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
       profileUrl: '/sobre'
     },
     introAnswer: 'A principal diferença é a segurança jurídica: no plano individual no CPF, o reajuste anual é controlado por índice oficial e a operadora não pode cancelar seu contrato sem motivo justo. No plano por adesão (vinculado a sindicatos e administradoras), os reajustes anuais de sinistralidade costumam ser muito mais altos e a administradora pode rescindir o contrato de todo o grupo.',
@@ -380,7 +380,7 @@ export const BLOG_POSTS: BlogPost[] = [
       name: 'Andrea Correa Leite',
       role: 'Corretora Habilitada com Registro SUSEP',
       susep: '10.2000204.1',
-      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 10 anos. Atendimento técnico sem atalhos irregulares.',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
       profileUrl: '/sobre'
     },
     introAnswer: 'Embora gigantes multinacionais tenham focado apenas no mercado corporativo, operadoras sólidas com rede própria continuam comercializando convênios médicos individuais no CPF com excelente estrutura hospitalar. Em São Paulo e capitais, destacam-se São Cristóvão Saúde, Trasmontano Saúde, Prevent Senior, MedSênior, Plena Saúde e UniHosp.',
@@ -457,7 +457,7 @@ export const BLOG_POSTS: BlogPost[] = [
       name: 'Andrea Correa Leite',
       role: 'Corretora Habilitada com Registro SUSEP',
       susep: '10.2000204.1',
-      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 10 anos. Atendimento técnico sem atalhos irregulares.',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
       profileUrl: '/sobre'
     },
     introAnswer: 'No plano de saúde familiar, o titular pode incluir como dependentes diretos o cônjuge ou companheiro(a) em união estável, filhos naturais ou adotivos e enteados até 21 anos (ou até 24 anos se universitários). A contratação familiar unifica o pagamento em um único boleto e muitas operadoras oferecem tabelas com descontos progressivos para 2 ou mais vidas.',
@@ -535,7 +535,7 @@ export const BLOG_POSTS: BlogPost[] = [
       name: 'Andrea Correa Leite',
       role: 'Corretora Habilitada com Registro SUSEP',
       susep: '10.2000204.1',
-      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 10 anos. Atendimento técnico sem atalhos irregulares.',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
       profileUrl: '/sobre'
     },
     introAnswer: 'Operadoras especializadas no público 50+ e terceira idade — como Prevent Senior e MedSênior — operam com foco em medicina preventiva, acompanhamento geriátrico contínuo e rede hospitalar própria. Por lei, após completar 59 anos, o beneficiário não sofre mais nenhum reajuste por mudança de faixa etária, tendo apenas os reajustes anuais padrão do contrato.',
@@ -613,7 +613,7 @@ export const BLOG_POSTS: BlogPost[] = [
       name: 'Andrea Correa Leite',
       role: 'Corretora Habilitada com Registro SUSEP',
       susep: '10.2000204.1',
-      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 10 anos. Atendimento técnico sem atalhos irregulares.',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
       profileUrl: '/sobre'
     },
     introAnswer: 'Para contratar um plano de saúde pelo MEI, você precisa ter o CNPJ ativo na Receita Federal há pelo menos 6 meses contínuos e reunir no mínimo 2 vidas (o titular do MEI mais um dependente direto, como cônjuge ou filho, ou funcionário registrado). O plano MEI oferece tabelas corporativas com custos até 35% mais baixos que as opções individuais.',
@@ -690,7 +690,7 @@ export const BLOG_POSTS: BlogPost[] = [
       name: 'Andrea Correa Leite',
       role: 'Corretora Habilitada com Registro SUSEP',
       susep: '10.2000204.1',
-      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 10 anos. Atendimento técnico sem atalhos irregulares.',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
       profileUrl: '/sobre'
     },
     introAnswer: 'Empresas do tipo LTDA, SLU, EIRELI ou S/A podem contratar plano de saúde empresarial (PME) a partir de 2 ou 3 vidas imediatamente após a abertura do CNPJ, sem necessidade de aguardar prazo de carência da empresa. Podem participar sócios administradores constantes no contrato social, funcionários com vínculo CLT e seus dependentes diretos.',

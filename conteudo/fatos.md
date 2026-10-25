@@ -16,21 +16,21 @@ O script `npm run check:posts` compara os números dos artigos com os números d
 | CNPJ | 17.818.045/0001-70 | `src/data/siteData.ts` | sim |
 | Endereço | Rua São Roberto, 298 — Vila Marieta — São Paulo/SP — CEP 03617-010 | `src/data/siteData.ts` | sim |
 | WhatsApp / telefone | (11) 99193-7930 | `src/data/siteData.ts` | sim |
-| Horário de atendimento | 09:00 às 19:00, segunda a sábado | `siteData.ts` + JSON-LD do `index.html` | a confirmar |
-| Regiões atendidas | São Paulo (todas as regiões), Rio de Janeiro, Brasília, Paraná e atendimento digital no Brasil | `src/data/siteData.ts` | a confirmar |
-| Tempo de experiência | mais de 10 anos | bio da autora em `src/data/blogData.ts` | a confirmar |
-| Código direto nas operadoras | "código direto cadastrado em todas as operadoras" | `src/data/siteData.ts` | a confirmar — a lista real ainda é pendência do briefing |
+| Horário de atendimento | 09:00 às 19:00, segunda a sábado | `siteData.ts` + JSON-LD do `index.html` | sim |
+| Regiões atendidas | São Paulo (todas as regiões), Rio de Janeiro, Brasília, Paraná e atendimento digital no Brasil | `src/data/siteData.ts` | sim |
+| Tempo de experiência | mais de 20 anos | bio da autora em `src/data/blogData.ts` | sim |
+| Código direto nas operadoras | "código direto cadastrado em todas as operadoras" | `src/data/siteData.ts` |sim — a lista real ainda é pendência do briefing |
 
 ## Prazos praticados (carência) — sempre como "prazo habitual na tabela da operadora"
 
 | Situação | Prazo | Fonte | Confirmado |
 |---|---|---|---|
-| Urgência e emergência | 24 horas | artigo de carência já publicado | a confirmar |
-| Consultas e exames básicos | 30 dias | artigo de carência já publicado | a confirmar |
-| Exames especiais, terapias, internações e cirurgias eletivas | 180 dias | artigo de carência já publicado | a confirmar |
-| Parto a termo | 300 dias (cerca de 10 meses) | artigo de carência já publicado | a confirmar |
-| Doença preexistente declarada (cobertura parcial temporária) | 24 meses | artigo de carência já publicado | a confirmar |
-| Tempo de plano anterior para pedir redução de carência | 12 ou 24 meses, conforme a operadora | artigo de carência já publicado | a confirmar |
+| Urgência e emergência | 24 horas | artigo de carência já publicado | sim |
+| Consultas e exames básicos | 30 dias | artigo de carência já publicado | sim |
+| Exames especiais, terapias, internações e cirurgias eletivas | 180 dias | artigo de carência já publicado | sim |
+| Parto a termo | 300 dias (cerca de 10 meses) | artigo de carência já publicado | sim |
+| Doença preexistente declarada (cobertura parcial temporária) | 24 meses | artigo de carência já publicado | sim |
+| Tempo de plano anterior para pedir redução de carência | 12 ou 24 meses, conforme a operadora | artigo de carência já publicado | sim |
 
 ## Operadoras
 
