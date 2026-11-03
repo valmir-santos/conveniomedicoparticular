@@ -18,7 +18,7 @@ export const EmpresarialPage: React.FC = () => {
     },
     {
       question: 'Qual a diferença entre contratar por MEI e por empresa LTDA/SLU?',
-      answer: 'Empresas LTDA, SLU ou EIRELI podem contratar o plano imediatamente após a emissão do contrato social na Junta Comercial (sem carência de tempo de CNPJ). Já o MEI exige no mínimo 6 meses de CNPJ ativo na Receita Federal.'
+      answer: 'Empresas LTDA, SLU ou EIRELI podem contratar o plano imediatamente após a emissão do contrato social na Junta Comercial (sem carência de tempo de CNPJ). Já no MEI, o tempo mínimo de CNPJ ativo na Receita Federal varia por operadora.'
     },
     {
       question: 'O que é e como funciona a coparticipação corporativa?',

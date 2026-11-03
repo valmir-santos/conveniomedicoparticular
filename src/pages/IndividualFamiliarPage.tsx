@@ -284,7 +284,7 @@ export const IndividualFamiliarPage: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <div>
-                <strong className="text-sm text-[#123A5F] block">Já tem MEI aberto há mais de 6 meses</strong>
+                <strong className="text-sm text-[#123A5F] block">Já tem MEI aberto com atividade real</strong>
                 <p className="text-xs text-gray-600">Aproveite os descontos de tabela empresarial a partir de 2 vidas.</p>
               </div>
               <Link to="/convenio-medico-mei" className="text-xs font-bold text-[#D97706] hover:underline shrink-0">

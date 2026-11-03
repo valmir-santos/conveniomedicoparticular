@@ -126,8 +126,8 @@ export const MODALITIES: ModalityItem[] = [
     id: 'mei',
     name: 'Convênio Médico MEI',
     slug: '/convenio-medico-mei',
-    tag: 'A partir de 6 meses de MEI',
-    forWhom: 'Para microempreendedores que já possuem MEI ativo há pelo menos 6 meses e querem incluir dependentes.',
+    tag: 'Para quem já tem MEI ativo',
+    forWhom: 'Para microempreendedores que já possuem MEI ativo, no tempo mínimo exigido pela operadora, e querem incluir dependentes.',
     notForWhom: 'Não recomendamos abrir MEI exclusivamente para contratar plano de saúde, devido aos custos fixos mensais do DAS.',
     details: 'Tabelas empresariais acessíveis para 1 ou mais vidas, dependendo das regras vigentes de cada operadora em São Paulo.'
   },

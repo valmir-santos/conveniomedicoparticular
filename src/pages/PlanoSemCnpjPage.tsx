@@ -263,7 +263,7 @@ export const PlanoSemCnpjPage: React.FC = () => {
             </li>
             <li className="flex items-start gap-2">
               <span className="w-2 h-2 rounded-full bg-[#D97706] mt-2 shrink-0"></span>
-              <span><strong>Auditoria de atividade pelas operadoras:</strong> As operadoras em São Paulo têm exigido tempo mínimo de 6 meses de abertura do CNPJ e comprovação de atividade econômica real. Se o CNPJ for considerado inativo, o plano pode cancelar o contrato.</span>
+              <span><strong>Auditoria de atividade pelas operadoras:</strong> As operadoras em São Paulo costumam exigir um tempo mínimo de abertura do CNPJ, que varia de uma para outra, e comprovação de atividade econômica real. Se o CNPJ for considerado inativo, o plano pode cancelar o contrato.</span>
             </li>
           </ul>
           <p className="text-xs text-gray-600 italic pt-2">

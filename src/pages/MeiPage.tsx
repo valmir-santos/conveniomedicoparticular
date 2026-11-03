@@ -22,7 +22,7 @@ export const MeiPage: React.FC = () => {
     },
     {
       question: 'Preciso ter quanto tempo de MEI aberto?',
-      answer: 'A maior parte das operadoras e seguradoras exige um tempo mínimo de 6 meses contínuos de constituição do CNPJ ativo na Receita Federal para aceitar a proposta comercial.'
+      answer: 'O tempo mínimo de CNPJ ativo na Receita Federal varia por operadora. Confira a regra na tabela vigente antes de enviar a proposta: mande o número do CNPJ no WhatsApp e a gente verifica as opções para o seu caso.'
     },
     {
       question: 'Quais documentos o MEI precisa apresentar na contratação?',
@@ -103,7 +103,7 @@ export const MeiPage: React.FC = () => {
           </p>
 
           <SectionWhatsAppCta
-            label="Seu MEI tem mais de 6 meses de abertura?"
+            label="Quer saber se o seu MEI já pode contratar?"
             sublabel="Mande o número do CNPJ e as idades para puxarmos as tabelas liberadas"
             messageText="Olá! Gostaria de cotar plano de saúde com meu CNPJ MEI."
           />
@@ -122,7 +122,7 @@ export const MeiPage: React.FC = () => {
             <div className="bg-white p-5 rounded-xl border border-gray-200 triagem-shadow">
               <FileCheck className="w-6 h-6 text-[#D97706] mb-2" />
               <h3 className="font-bold text-sm text-[#123A5F]">Tempo Mínimo de Abertura</h3>
-              <p className="text-xs text-gray-600 mt-1">A maioria das operadoras exige no mínimo 6 meses contínuos de CNPJ ativo na Receita Federal.</p>
+              <p className="text-xs text-gray-600 mt-1">O tempo mínimo de CNPJ ativo na Receita Federal varia por operadora. Confira na tabela vigente.</p>
             </div>
 
             <div className="bg-white p-5 rounded-xl border border-gray-200 triagem-shadow">
