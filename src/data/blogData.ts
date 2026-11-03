@@ -752,6 +752,691 @@ export const BLOG_POSTS: BlogPost[] = [
     customWhatsappText: 'Olá! Gostaria de receber um estudo de plano de saúde empresarial PME para minha empresa.',
     ctaTitle: 'Quer reduzir os custos de saúde da sua empresa?',
     ctaDescription: 'Elaboramos um estudo comparativo completo entre Amil, Bradesco, SulAmérica, Porto Saúde, GNDI e outras opções para o seu CNPJ.'
+  },
+
+  // 10. DOENÇA PREEXISTENTE
+  {
+    id: 'artigo-10-doenca-preexistente',
+    slug: 'plano-de-saude-com-doenca-preexistente',
+    title: 'Tenho um problema de saúde. O plano me aceita?',
+    subtitle: 'Diabetes, hipertensão, cirurgia antiga ou tratamento em andamento: o que acontece na contratação e o que muda no uso do plano.',
+    targetKeyword: 'plano de saúde com doença preexistente',
+    metaDescription: 'Tem doença preexistente e quer contratar plano de saúde? Veja como a declaração funciona, o que fica limitado por 24 meses e o que você já pode usar.',
+    category: 'Casos Especiais & Riscos',
+    publishDate: '2026-11-05',
+    readTime: '6 min de leitura',
+    author: {
+      name: 'Andrea Correa Leite',
+      role: 'Corretora Habilitada com Registro SUSEP',
+      susep: '10.2000204.1',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
+      profileUrl: '/sobre'
+    },
+    introAnswer: 'Sim, ter um problema de saúde não impede você de contratar um plano. Você informa a condição na declaração de saúde e, na prática, o prazo habitual na tabela da operadora é de 24 meses de cobertura parcial temporária: durante esse período ficam limitados cirurgias, leitos de alta tecnologia e procedimentos de alta complexidade ligados àquela condição. O restante do plano segue os prazos normais de carência.',
+    sections: [
+      {
+        questionH2: 'A operadora pode recusar quem já tem uma doença?',
+        directFirstSentence: 'Ter uma doença conhecida não é motivo para ficar sem plano: o caminho normal é declarar a condição e contratar com a cobertura parcial temporária.',
+        content: [
+          'É aqui que muita gente desiste antes da hora. A pessoa com hipertensão, diabetes ou um histórico de cirurgia imagina que vai ouvir um não, e nem chega a pedir a cotação. O que a operadora avalia, na verdade, é como aquela condição entra no contrato.',
+          'Vale entender a diferença entre duas coisas que parecem iguais. Uma é a carência, que todo beneficiário novo cumpre, com ou sem doença. A outra é a cobertura parcial temporária, que só existe para a condição que você declarou.',
+          'O que muda de uma operadora para outra é o formulário, a análise médica e as tabelas disponíveis para a sua idade. Por isso a pergunta útil não é "vão me aceitar?", e sim "em qual operadora e em qual tabela o meu caso fica melhor?".'
+        ]
+      },
+      {
+        questionH2: 'O que fica limitado durante os 24 meses?',
+        directFirstSentence: 'Durante os 24 meses, a limitação vale para cirurgias, leitos de alta tecnologia, como UTI, e procedimentos de alta complexidade relacionados diretamente à condição declarada.',
+        content: [
+          'Um exemplo simples: quem declara um problema no joelho pode usar o plano normalmente para uma gripe, uma consulta com o cardiologista ou um exame de sangue, respeitando as carências. O que fica de fora nesse período é a cirurgia do joelho declarado.',
+          'Consultas e exames comuns não entram nessa limitação. Quem faz acompanhamento de uma doença crônica continua indo ao médico depois de cumprir o prazo habitual de 30 dias para consultas e exames básicos.',
+          'A lista exata de procedimentos que ficam limitados aparece no documento que a operadora envia depois de analisar a declaração. Leia esse documento antes de assinar, e pergunte se algum item não ficar claro.'
+        ]
+      },
+      {
+        questionH2: 'O que acontece em uma urgência ligada à doença declarada?',
+        directFirstSentence: 'O atendimento de urgência e emergência tem prazo habitual de 24 horas, mas o que está coberto em uma internação ligada à condição declarada precisa ser conferido no contrato antes de assinar.',
+        content: [
+          'Esse é o ponto que mais vale perguntar, porque a dúvida costuma aparecer justamente na pior hora. O pronto-socorro atende, mas uma internação longa ou uma cirurgia decorrente da condição declarada pode cair na limitação do período.',
+          'Peça que a regra da operadora escolhida seja mostrada por escrito. Se a sua condição tem risco real de precisar de internação nos próximos meses, essa informação pesa mais na decisão do que uma diferença pequena de mensalidade.'
+        ]
+      },
+      {
+        questionH2: 'Dá para pagar mais e ter cobertura completa desde o início?',
+        directFirstSentence: 'Algumas operadoras podem propor um acréscimo na mensalidade em troca de cobertura para a condição declarada, mas isso não é oferecido em todo contrato.',
+        content: [
+          'Essa alternativa é conhecida como agravo. Quando existe, o valor depende da análise da operadora para o seu caso, e por isso não há tabela pública para consultar. Só dá para saber depois da análise.',
+          'Se a proposta vier, compare com calma: some o acréscimo ao longo do período e veja quanto isso representa frente ao risco real de precisar daquele procedimento. Em alguns casos compensa; em outros, a cobertura parcial atende bem.'
+        ]
+      },
+      {
+        questionH2: 'Posso deixar de informar o problema para evitar a limitação?',
+        directFirstSentence: 'Não: omitir uma doença que você conhece é o maior risco dessa contratação, porque a operadora pode negar a cobertura e questionar o próprio contrato.',
+        content: [
+          'A omissão costuma aparecer quando mais importa. No pedido de uma cirurgia, a operadora consulta o histórico e pode investigar se a condição já era conhecida antes da assinatura. Nesse momento, o que era uma limitação de prazo vira um problema muito maior.',
+          'Declarar custa uma limitação com data para acabar. Omitir pode custar a cobertura no momento em que você mais precisar dela, além de abrir discussão sobre a validade do contrato.',
+          'Se você não tem certeza de como descrever a sua situação, leve a dúvida ao seu médico e separe seus exames. A gente orienta o caminho da proposta, mas as respostas da declaração são suas.'
+        ]
+      }
+    ],
+    concreteBlock: {
+      type: 'table',
+      title: 'O que muda com uma condição declarada',
+      description: 'Prazos habituais na tabela da operadora. O documento da proposta é quem define o seu caso.',
+      headers: ['Situação', 'Prazo habitual', 'Ligado à condição declarada?'],
+      rows: [
+        ['Urgência e emergência', '24 horas', 'Confira no contrato o que cobre em caso de internação'],
+        ['Consultas e exames básicos', '30 dias', 'Liberados normalmente após o prazo'],
+        ['Exames especiais e cirurgias sem relação com a condição', '180 dias', 'Não entram na limitação'],
+        ['Cirurgias ligadas à condição', '24 meses', 'Limitadas pela cobertura parcial temporária'],
+        ['UTI e leitos de alta tecnologia ligados à condição', '24 meses', 'Limitados pela cobertura parcial temporária'],
+        ['Procedimentos de alta complexidade ligados à condição', '24 meses', 'Limitados pela cobertura parcial temporária']
+      ]
+    },
+    keyTakeaways: [
+      'Ter uma doença conhecida não impede a contratação do plano.',
+      'A cobertura parcial temporária tem prazo habitual de 24 meses e vale só para o que está ligado à condição declarada.',
+      'Consultas e exames comuns seguem os prazos normais de carência.',
+      'Omitir uma doença conhecida pode custar a cobertura e abrir discussão sobre o contrato.'
+    ],
+    customWhatsappText: 'Olá! Tenho um problema de saúde e gostaria de saber como fica a contratação do plano no meu caso.',
+    ctaTitle: 'Tem uma condição de saúde e quer saber como fica o seu plano?',
+    ctaDescription: 'Conte pelo WhatsApp a sua idade e a sua cidade. A gente mostra quais operadoras atendem o seu perfil e como funciona a declaração em cada uma.'
+  },
+
+  // 11. REAJUSTE
+  {
+    id: 'artigo-11-reajuste-anual',
+    slug: 'reajuste-plano-de-saude-individual-empresarial',
+    title: 'Por que o plano sobe todo ano, e por que o empresarial pode subir mais',
+    subtitle: 'Reajuste anual e mudança de faixa etária são coisas diferentes. Veja como cada tipo de contrato calcula o aumento.',
+    targetKeyword: 'reajuste plano de saúde individual',
+    metaDescription: 'Entenda por que o reajuste do plano de saúde individual funciona diferente do empresarial e do adesão, e o que perguntar antes de escolher o contrato.',
+    category: 'Como Funciona na Prática',
+    publishDate: '2026-11-09',
+    readTime: '6 min de leitura',
+    author: {
+      name: 'Andrea Correa Leite',
+      role: 'Corretora Habilitada com Registro SUSEP',
+      susep: '10.2000204.1',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
+      profileUrl: '/sobre'
+    },
+    introAnswer: 'O plano sobe todo ano porque os custos de consultas, exames e internações mudam, e a mensalidade é recalculada na data de aniversário do contrato. No plano individual, o índice anual é único para toda a categoria. No coletivo por adesão e no empresarial, a operadora calcula o aumento com base no uso e nos custos do contrato, e por isso ele pode vir maior.',
+    sections: [
+      {
+        questionH2: 'Por que a mensalidade aumenta mesmo se eu não usei o plano?',
+        directFirstSentence: 'A mensalidade aumenta porque o reajuste olha para o custo do conjunto de beneficiários, e não para o uso individual de cada pessoa.',
+        content: [
+          'Um plano de saúde funciona como um grupo que divide a conta. O que você paga ajuda a cobrir a cirurgia de outra pessoa, e o que os outros pagam fica ali para o dia em que você precisar.',
+          'Por isso, não ter usado o plano durante o ano não gera desconto nem evita o aumento. O preço de exames, materiais, honorários e internações continua mudando, e a mensalidade acompanha esse custo.',
+          'O reajuste é aplicado no mês de aniversário do contrato. Esse mês aparece na proposta, e vale anotar para não ser pego de surpresa quando o boleto chegar.'
+        ]
+      },
+      {
+        questionH2: 'Qual é a diferença entre o reajuste anual e o aumento por idade?',
+        directFirstSentence: 'O reajuste anual vale para todo o contrato e acontece uma vez por ano; o aumento por faixa etária acontece quando o beneficiário muda de faixa de idade.',
+        content: [
+          'São dois movimentos separados, e eles podem cair no mesmo ano. Quem faz aniversário e muda de faixa recebe o aumento previsto na tabela da faixa nova, além do reajuste anual do contrato.',
+          'A boa notícia é que o aumento por idade não é surpresa: ele já está previsto na tabela do contrato. Peça para ver a coluna inteira de faixas etárias na hora de contratar, e não só o valor da sua idade de hoje.',
+          'Isso muda a conta de quem está perto de trocar de faixa. Um plano que parece melhor agora pode ficar em outro patamar pouco tempo depois.'
+        ]
+      },
+      {
+        questionH2: 'Como funciona o reajuste no plano individual?',
+        directFirstSentence: 'No plano individual ou familiar contratado no CPF, o índice anual é único para os contratos da categoria e não depende do uso da sua carteira.',
+        content: [
+          'Na prática, isso dá mais previsibilidade para quem contrata no CPF. O índice é divulgado todo ano, e a operadora o aplica na data de aniversário do contrato.',
+          'Essa previsibilidade é um dos motivos pelos quais o plano individual pode custar mais na entrada e, mesmo assim, fazer sentido para quem pretende ficar muitos anos. O preço do primeiro boleto é só uma parte da conta.',
+          'A limitação é a oferta: poucas operadoras ainda vendem esse tipo de contrato em São Paulo, e cada uma atende regiões e faixas etárias específicas.'
+        ]
+      },
+      {
+        questionH2: 'Por que o coletivo por adesão e o empresarial podem subir mais?',
+        directFirstSentence: 'Nos contratos coletivos, o aumento é calculado pela operadora a partir do uso e dos custos do contrato, sem o índice único da categoria individual.',
+        content: [
+          'O nome técnico para esse uso é sinistralidade: a relação entre o que a operadora gastou com o grupo e o que recebeu de mensalidades. Quando o grupo usa mais, a pressão por aumento cresce.',
+          'Contratos com poucas vidas, como os de MEI e de pequenas empresas, costumam ser calculados em conjunto com outros contratos parecidos. Isso dilui o impacto de uma internação no seu grupo, mas você também passa a depender do resultado de um grupo maior, que não controla.',
+          'Por isso, a mensalidade menor de um plano por CNPJ ou por adesão não conta a história inteira. Sem o histórico de reajustes daquela linha, a comparação com o individual fica pela metade.'
+        ]
+      },
+      {
+        questionH2: 'O que perguntar antes de escolher para não levar um susto?',
+        directFirstSentence: 'Antes de assinar, pergunte qual é o mês de aniversário, como o reajuste é calculado naquele contrato e qual foi o histórico de aumentos daquela linha.',
+        content: [
+          'Nenhum corretor consegue prever o aumento do próximo ano, e desconfie de quem promete um número. O que dá para fazer é comparar como cada contrato calcula o reajuste e o que aconteceu nos anos anteriores.',
+          'Também vale olhar a mensalidade como uma decisão de longo prazo. Trocar de plano depois de um aumento grande é possível, mas pode envolver novas análises e carências, dependendo do tempo de plano e da operadora.',
+          'Quando a tabela vigente chega, a gente coloca as opções lado a lado com a sua faixa etária, para você enxergar também o preço das próximas faixas.'
+        ]
+      }
+    ],
+    concreteBlock: {
+      type: 'table',
+      title: 'Como o reajuste funciona em cada tipo de contrato',
+      description: 'Comparação prática. As regras do seu contrato estão na proposta da operadora.',
+      headers: ['Tipo de contrato', 'Como o reajuste anual é definido', 'O que observar'],
+      rows: [
+        ['Individual ou familiar (CPF)', 'Índice único da categoria, divulgado todo ano', 'Oferta limitada de operadoras e regiões'],
+        ['Coletivo por adesão', 'Calculado pela operadora e pela administradora, conforme uso e custos', 'Peça o histórico de reajustes da entidade e da linha'],
+        ['Empresarial pequeno (MEI e PME)', 'Calculado pela operadora, em geral junto com contratos parecidos', 'Mensalidade inicial não mostra os aumentos seguintes'],
+        ['Mudança de faixa etária (todos)', 'Previsto na tabela de faixas do próprio contrato', 'Veja a tabela inteira, não só a sua idade de hoje']
+      ]
+    },
+    keyTakeaways: [
+      'O reajuste acompanha o custo do grupo, e não o quanto você usou o plano.',
+      'Reajuste anual e mudança de faixa etária são aumentos diferentes e podem cair no mesmo ano.',
+      'No individual, o índice anual é único; no coletivo, a operadora calcula com base no uso e nos custos.',
+      'Peça o mês de aniversário, a tabela inteira de faixas e o histórico de aumentos antes de escolher.'
+    ],
+    customWhatsappText: 'Olá! Gostaria de comparar como é o reajuste nas opções de plano de saúde para o meu perfil.',
+    ctaTitle: 'Quer comparar os planos olhando além do primeiro boleto?',
+    ctaDescription: 'Envie as idades pelo WhatsApp. A gente mostra a tabela vigente com todas as faixas e explica como é o reajuste em cada opção.'
+  },
+
+  // 12. PERDI O PLANO DA EMPRESA
+  {
+    id: 'artigo-12-perdi-plano-empresa',
+    slug: 'perdi-o-plano-da-empresa-o-que-fazer',
+    title: 'Perdi o plano da empresa. Como contratar por conta sem começar do zero',
+    subtitle: 'Demissão, fim de contrato ou empresa que cancelou o benefício: o que fazer antes de o plano acabar para não perder o tempo já cumprido.',
+    targetKeyword: 'perdi o plano da empresa o que fazer',
+    metaDescription: 'Perdeu o plano da empresa? Veja o que perguntar ao RH, como pedir a carta de permanência e como contratar por conta aproveitando o tempo já cumprido.',
+    category: 'Casos Especiais & Riscos',
+    publishDate: '2026-11-12',
+    readTime: '6 min de leitura',
+    author: {
+      name: 'Andrea Correa Leite',
+      role: 'Corretora Habilitada com Registro SUSEP',
+      susep: '10.2000204.1',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
+      profileUrl: '/sobre'
+    },
+    introAnswer: 'O primeiro passo é agir antes de o plano acabar: pergunte ao RH se você pode continuar no plano atual e peça a carta de permanência à empresa ou à operadora. Com esse documento e os comprovantes do plano anterior, muitas operadoras aceitam reduzir as carências de quem já tinha 12 ou 24 meses de plano, conforme a regra de cada uma.',
+    sections: [
+      {
+        questionH2: 'Posso continuar no plano da empresa depois de sair?',
+        directFirstSentence: 'Em alguns casos sim: quem foi demitido sem justa causa ou se aposentou e ajudava a pagar a mensalidade pode ter a opção de continuar, assumindo o valor integral.',
+        content: [
+          'A pergunta certa para o RH é direta: "eu tenho direito de continuar no plano? Por quanto tempo e por qual valor?". As condições dependem de como você pagava o plano e do motivo da saída, então peça a resposta por escrito.',
+          'Mesmo quando essa opção existe, compare o valor. Sem a parte que a empresa pagava, a mensalidade pode mudar bastante. Continuar pode ser uma boa ponte para quem está em tratamento ou tem um procedimento marcado.',
+          'Atenção ao prazo para responder: normalmente existe uma data para aceitar essa opção. Depois dela, o caminho é contratar um plano novo.'
+        ]
+      },
+      {
+        questionH2: 'Que documentos devo pedir antes de o plano acabar?',
+        directFirstSentence: 'O documento mais importante é a carta de permanência, que informa desde quando você está no plano e qual é o tipo de contrato.',
+        content: [
+          'Peça a carta enquanto o vínculo está ativo, porque ela costuma ser mais simples de conseguir nesse momento. Guarde junto os comprovantes do plano e uma cópia da carteirinha.',
+          'Inclua os dependentes nesse pedido. Cônjuge e filhos que estavam no plano também podem precisar comprovar o próprio tempo de permanência, e a data de entrada de cada um pode ser diferente.',
+          'Esses papéis são o que a nova operadora analisa para decidir se reduz as carências. Sem eles, a negociação pode acabar na tabela padrão de prazos.'
+        ]
+      },
+      {
+        questionH2: 'Dá para aproveitar a carência já cumprida no plano novo?',
+        directFirstSentence: 'Muitas vezes sim: as operadoras costumam reduzir carências de quem comprova 12 ou 24 meses de plano anterior, cada uma com a sua própria tabela.',
+        content: [
+          'A redução não é automática, e não é igual em toda operadora. A proposta precisa indicar o que foi aproveitado, e é esse documento que vale, não a conversa de venda.',
+          'Por isso o ideal é evitar um intervalo sem plano entre o antigo e o novo. Quanto mais tempo passa depois do fim do plano anterior, mais difícil fica conseguir essa redução, e o intervalo deixa você descoberto.',
+          'Se o plano acabar sem nenhuma redução aprovada, os prazos habituais são de 24 horas para urgência, 30 dias para consultas e exames básicos e 180 dias para internações e cirurgias eletivas.'
+        ]
+      },
+      {
+        questionH2: 'Qual operadora consigo contratar sem empresa?',
+        directFirstSentence: 'Sem CNPJ, as opções no CPF incluem São Cristóvão, Trasmontano, HapVida Notredame, UniHosp, Plena e Blue Med, além de Prevent Senior e MedSênior para o público mais velho.',
+        content: [
+          'Aqui costuma vir a surpresa: o plano da empresa muitas vezes é de uma operadora que não vende no CPF. Amil, Bradesco Saúde, SulAmérica, Porto Seguro Saúde e Seguros Unimed contratam por adesão a entidade de classe ou por empresa.',
+          'Se você tem formação ou profissão que dá direito a uma entidade, o plano por adesão pode ser o caminho para continuar em uma dessas operadoras. Sem esse vínculo, o foco passa a ser o CPF.',
+          'Cada operadora atende regiões diferentes, então a rede perto de casa e do seu médico pesa tanto quanto a mensalidade. Não abra um CNPJ só para manter o plano: quando a empresa não tem atividade real, o contrato fica em risco.'
+        ]
+      }
+    ],
+    concreteBlock: {
+      type: 'steps',
+      title: 'O que fazer, nesta ordem, quando o plano da empresa vai acabar',
+      description: 'Comece pelo primeiro passo assim que souber da saída, mesmo antes da data final do plano.',
+      steps: [
+        { step: 1, title: 'Descubra a data final do plano', detail: 'Pergunte ao RH o último dia de cobertura. O restante do planejamento é feito a partir dessa data.' },
+        { step: 2, title: 'Pergunte se você pode continuar', detail: 'Peça por escrito se existe essa opção, por quanto tempo e por qual valor.' },
+        { step: 3, title: 'Peça a carta de permanência', detail: 'Solicite para você e para cada dependente, e guarde os comprovantes e as carteirinhas.' },
+        { step: 4, title: 'Anote tratamentos em andamento', detail: 'Liste consultas, exames e cirurgias já marcados. Isso pesa na escolha entre continuar ou trocar.' },
+        { step: 5, title: 'Compare as opções disponíveis', detail: 'Coloque lado a lado CPF e adesão, com a rede perto de casa e a tabela vigente para as suas idades.' },
+        { step: 6, title: 'Confirme a redução na proposta', detail: 'Antes de assinar, veja na proposta quais carências foram reduzidas e a data de início do plano novo.' }
+      ]
+    },
+    keyTakeaways: [
+      'Comece antes de o plano acabar: depois do fim, fica mais difícil aproveitar o tempo cumprido.',
+      'Pergunte ao RH, por escrito, se você pode continuar no plano e por qual valor.',
+      'A carta de permanência é o documento-chave para pedir a redução de carências.',
+      'Muitas operadoras de plano empresarial não vendem no CPF, então compare as opções reais para o seu caso.'
+    ],
+    customWhatsappText: 'Olá! Vou perder o plano da empresa e gostaria de ver como contratar por conta aproveitando o tempo que já cumpri.',
+    ctaTitle: 'Seu plano da empresa vai acabar?',
+    ctaDescription: 'Envie pelo WhatsApp a data final do plano, as idades e a carta de permanência, se já tiver. A gente vê as opções para você não ficar descoberto.'
+  },
+
+  // 13. ENFERMARIA OU APARTAMENTO
+  {
+    id: 'artigo-13-enfermaria-ou-apartamento',
+    slug: 'plano-de-saude-enfermaria-ou-apartamento',
+    title: 'Enfermaria ou apartamento: o que muda no dia a dia e no preço do plano',
+    subtitle: 'A diferença aparece na internação, não na consulta. Veja o que muda de verdade e como escolher a acomodação certa.',
+    targetKeyword: 'plano de saúde enfermaria ou apartamento',
+    metaDescription: 'Plano de saúde com enfermaria ou apartamento? Veja o que muda na internação, no parto, na rede de hospitais e na mensalidade antes de escolher a acomodação.',
+    category: 'Como Funciona na Prática',
+    publishDate: '2026-11-16',
+    readTime: '5 min de leitura',
+    author: {
+      name: 'Andrea Correa Leite',
+      role: 'Corretora Habilitada com Registro SUSEP',
+      susep: '10.2000204.1',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
+      profileUrl: '/sobre'
+    },
+    introAnswer: 'A diferença entre enfermaria e apartamento é o tipo de quarto em uma internação: na enfermaria você divide o quarto com outros pacientes; no apartamento, o quarto é individual e com mais espaço para o acompanhante. Consultas, exames e o tratamento médico não mudam por causa disso. O apartamento custa mais e, em algumas tabelas, dá acesso a hospitais diferentes.',
+    sections: [
+      {
+        questionH2: 'O que muda de verdade entre enfermaria e apartamento?',
+        directFirstSentence: 'O que muda é o quarto durante a internação: coletivo na enfermaria e individual no apartamento, com a mesma lista de procedimentos cobertos.',
+        content: [
+          'Na enfermaria, o quarto é compartilhado, e o número de leitos varia conforme o hospital. Você terá menos privacidade e pode ter horários de visita mais restritos.',
+          'No apartamento, o quarto é só seu, em geral com banheiro privativo e acomodação para o acompanhante. Em uma internação longa, ou no pós-operatório, essa diferença é o que a família mais sente.',
+          'A escolha não muda o que o médico pode fazer por você. Uma cirurgia coberta continua coberta nas duas opções, seguindo as regras do contrato.'
+        ]
+      },
+      {
+        questionH2: 'A acomodação muda alguma coisa nas consultas e nos exames?',
+        directFirstSentence: 'Em geral não: consultas e exames ambulatoriais seguem a mesma rede do produto, porque a acomodação se refere à internação.',
+        content: [
+          'Quem quase nunca é internado passa anos sem perceber diferença entre os dois tipos de plano. Isso explica por que a enfermaria costuma ser escolhida por quem quer reduzir a mensalidade.',
+          'Mas há uma ressalva importante: em algumas operadoras, a mudança de acomodação vem junto com outra categoria de produto. Nesse caso, a rede de consultórios e de laboratórios também pode mudar, e a comparação precisa ser feita produto a produto.'
+        ]
+      },
+      {
+        questionH2: 'A rede de hospitais pode ser diferente?',
+        directFirstSentence: 'Sim, em alguns produtos o hospital que você quer só atende quem tem apartamento, ou atende a enfermaria em unidades diferentes.',
+        content: [
+          'Esse é o ponto que mais deve pesar. Antes de decidir, procure o hospital de sua preferência na rede daquele produto específico, e não apenas na rede geral da operadora.',
+          'Na rede própria de algumas operadoras, como a da Trasmontano, existem opções de enfermaria e apartamento. Mesmo assim, vale conferir qual hospital atende cada opção na sua região, porque é lá que você seria internado.',
+          'Uma boa pergunta para fazer antes da assinatura é: "se eu precisar internar amanhã, em qual hospital deste produto eu iria?". A resposta vale mais do que o nome da categoria.'
+        ]
+      },
+      {
+        questionH2: 'E no parto, qual a acomodação indicada?',
+        directFirstSentence: 'No parto, a acomodação contratada define o quarto da mãe e pode influenciar a maternidade disponível, então confira antes de planejar a gravidez.',
+        content: [
+          'Quem planeja ter filhos costuma olhar mais para essa diferença, porque é uma internação quase certa. O prazo habitual na tabela da operadora para o parto a termo é de 300 dias, e por isso a escolha precisa ser feita bem antes.',
+          'Procure a maternidade que você pretende usar na rede do produto, e veja como funciona o acompanhante nas duas acomodações.',
+          'Pode ser difícil mudar de ideia depois. Passar da enfermaria para o apartamento durante o contrato pode exigir uma nova análise e um novo prazo para usar a acomodação superior.'
+        ]
+      },
+      {
+        questionH2: 'Como decidir qual escolher?',
+        directFirstSentence: 'Decida olhando primeiro o hospital que você usaria, depois a diferença na mensalidade em todas as faixas de idade da família.',
+        content: [
+          'Se a diferença de preço é pequena na sua faixa etária, o apartamento pode compensar pela privacidade em um momento difícil. Se a diferença pesa todos os meses e o hospital é o mesmo, a enfermaria pode atender bem.',
+          'Para quem tem mais idade ou um histórico de internações, o conforto do apartamento costuma ter mais valor, porque a chance de precisar dele é maior. Só que o preço também cresce com a faixa etária, então a conta precisa ser feita com os valores reais da tabela vigente.'
+        ]
+      }
+    ],
+    concreteBlock: {
+      type: 'table',
+      title: 'Enfermaria e apartamento lado a lado',
+      description: 'Comparação geral. Os detalhes de cada produto estão na proposta e na rede da operadora.',
+      headers: ['O que comparar', 'Enfermaria', 'Apartamento'],
+      rows: [
+        ['Quarto na internação', 'Coletivo, dividido com outros pacientes', 'Individual'],
+        ['Acompanhante', 'Conforme a regra do hospital e do contrato', 'Em geral com acomodação no próprio quarto'],
+        ['Procedimentos cobertos', 'Os previstos no contrato', 'Os previstos no contrato'],
+        ['Rede de hospitais', 'Confira no produto', 'Confira no produto; pode incluir outras unidades'],
+        ['Mensalidade', 'Menor', 'Maior; peça a diferença na sua faixa etária'],
+        ['Para quem costuma fazer sentido', 'Quem prioriza o custo mensal', 'Quem prioriza privacidade em uma internação']
+      ]
+    },
+    keyTakeaways: [
+      'A diferença aparece na internação, não na consulta de rotina.',
+      'Procure o hospital que você usaria na rede do produto antes de decidir.',
+      'Confira a maternidade e a regra do acompanhante se planeja ter filhos.',
+      'Compare a diferença de preço em todas as faixas de idade da família.'
+    ],
+    customWhatsappText: 'Olá! Gostaria de comparar enfermaria e apartamento com os valores para as idades da minha família.',
+    ctaTitle: 'Quer ver a diferença real no seu caso?',
+    ctaDescription: 'Envie as idades e o hospital que você prefere pelo WhatsApp. A gente compara enfermaria e apartamento na tabela vigente.'
+  },
+
+  // 14. REGIONAL OU NACIONAL
+  {
+    id: 'artigo-14-regional-ou-nacional',
+    slug: 'plano-de-saude-regional-ou-nacional',
+    title: 'Abrangência regional ou nacional: quando vale pagar por cobertura no Brasil todo',
+    subtitle: 'Morar em São Paulo e viajar de vez em quando não significa precisar de um plano nacional. Veja como decidir pelo seu dia a dia.',
+    targetKeyword: 'plano de saúde regional ou nacional',
+    metaDescription: 'Plano de saúde regional ou nacional? Veja o que cada abrangência cobre, o que acontece em viagem e quando faz sentido pagar por cobertura em todo o Brasil.',
+    category: 'Como Funciona na Prática',
+    publishDate: '2026-11-19',
+    readTime: '6 min de leitura',
+    author: {
+      name: 'Andrea Correa Leite',
+      role: 'Corretora Habilitada com Registro SUSEP',
+      susep: '10.2000204.1',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
+      profileUrl: '/sobre'
+    },
+    introAnswer: 'Um plano regional cobre o atendimento de rotina em uma área definida no contrato, como a capital e cidades vizinhas; um plano nacional leva a rede para outros estados. O nacional faz sentido quando você tem rotina fora da região, como trabalho, família ou tratamento em outro estado. Para quem vive e se trata em São Paulo, o regional costuma atender, desde que a rede esteja perto.',
+    sections: [
+      {
+        questionH2: 'O que significa abrangência no plano de saúde?',
+        directFirstSentence: 'Abrangência é a área geográfica em que o contrato garante o atendimento, e ela aparece escrita na proposta e na carteirinha.',
+        content: [
+          'Os formatos mais comuns são municipal, grupo de municípios, estadual e nacional. O nome do produto nem sempre deixa isso claro, por isso o campo a ser conferido é o de abrangência na proposta.',
+          'Abrangência e rede são coisas diferentes. Um plano pode ter abrangência em uma área grande e, ainda assim, ter poucos hospitais perto da sua casa. O contrário também acontece: um plano regional com rede forte onde você mora.',
+          'Em São Paulo, isso fica bem visível. A Plena Saúde, por exemplo, concentra atendimento na Zona Norte, na Zona Oeste e em Osasco; a São Cristóvão tem forte presença na Zona Leste e no Centro expandido.'
+        ]
+      },
+      {
+        questionH2: 'Plano regional me deixa sem atendimento em uma viagem?',
+        directFirstSentence: 'Depende do contrato: a regra de urgência fora da área de abrangência varia, então confira na proposta antes de assumir que está coberto.',
+        content: [
+          'A pergunta certa é: "se eu passar mal em outra cidade, como funciona?". Alguns contratos preveem atendimento de urgência fora da região, e outros têm condições específicas, como reembolso ou transferência.',
+          'Quem viaja poucas vezes por ano pode achar mais sensato manter o plano regional e entender bem essa regra do que pagar a diferença todos os meses. Já quem viaja com frequência para o mesmo lugar precisa fazer outra conta.',
+          'Uma confusão comum é achar que a rede nacional dá acesso a consulta de rotina em qualquer lugar. Antes de contar com isso, confira se existe rede no destino que você frequenta.'
+        ]
+      },
+      {
+        questionH2: 'Quando vale pagar por um plano nacional?',
+        directFirstSentence: 'Vale quando existe um motivo concreto e recorrente fora da sua região: trabalho frequente, família em outro estado ou intenção de se tratar em outra cidade.',
+        content: [
+          'Um exemplo prático: quem passa parte do mês em outro estado por trabalho usa aquela rede de verdade. Já quem visita a família uma vez por ano talvez pague por algo que quase não usa.',
+          'Quem está mudando de cidade em breve também deve considerar isso. Em vez de levar em conta só o lugar de hoje, pense onde a família deve morar durante os próximos anos de contrato.'
+        ]
+      },
+      {
+        questionH2: 'Quem só tem CPF consegue contratar um plano nacional?',
+        directFirstSentence: 'É mais difícil: as operadoras do nosso guia com abrangência nacional, como Bradesco Saúde, SulAmérica, Seguros Unimed e Unimed Nacional, contratam por adesão ou por empresa.',
+        content: [
+          'No CPF, a maior parte das opções em São Paulo é regional, com rede concentrada na capital e nas cidades próximas. A Trasmontano, por exemplo, cobre a capital, o Grande ABC e a Baixada Santista; a UniHosp cobre partes da capital e o Grande ABC.',
+          'Para quem tem formação ou profissão ligada a uma entidade de classe, o plano por adesão pode abrir o caminho para as linhas nacionais. Sem esse vínculo, abrir um CNPJ só para ter cobertura nacional não é uma saída segura.',
+          'Se o seu caso é só ter rede perto de casa em São Paulo, a abrangência regional no CPF costuma resolver sem precisar de nenhum atalho.'
+        ]
+      }
+    ],
+    concreteBlock: {
+      type: 'checklist',
+      title: 'Cinco perguntas para decidir entre regional e nacional',
+      description: 'Responda com a sua rotina real, não com a viagem que talvez aconteça um dia.',
+      items: [
+        { title: 'Onde a família mora e trabalha?', desc: 'Confira hospitais e pronto-socorro perto desses endereços na rede do produto.' },
+        { title: 'Você tem rotina em outro estado?', desc: 'Trabalho frequente ou família que você visita muito pesam a favor da abrangência nacional.' },
+        { title: 'Há rede de verdade no destino?', desc: 'Procure a cidade na rede do produto, em vez de confiar só na palavra "nacional".' },
+        { title: 'Como é a urgência fora da região?', desc: 'Peça a regra por escrito, com o que acontece em uma viagem.' },
+        { title: 'Você vai mudar de cidade em breve?', desc: 'Trocar de plano depois pode envolver nova análise. Se a mudança é provável, fale disso antes.', alert: true }
+      ]
+    },
+    keyTakeaways: [
+      'Abrangência é a área do contrato; rede é quem realmente atende nessa área.',
+      'Plano nacional vale quando existe uma rotina recorrente fora da sua região.',
+      'A regra de urgência fora da área varia, e precisa ser conferida na proposta.',
+      'No CPF, a maior parte das opções em São Paulo é regional.'
+    ],
+    customWhatsappText: 'Olá! Gostaria de saber se no meu caso faz mais sentido um plano regional ou nacional.',
+    ctaTitle: 'Regional ou nacional: qual faz sentido para a sua rotina?',
+    ctaDescription: 'Conte onde a família mora e para onde costuma ir. A gente mostra pelo WhatsApp as opções com rede de verdade nesses lugares.'
+  },
+
+  // 15. REEMBOLSO
+  {
+    id: 'artigo-15-reembolso',
+    slug: 'reembolso-plano-de-saude-como-funciona',
+    title: 'Como funciona o reembolso de consulta no plano de saúde',
+    subtitle: 'Nem todo plano tem reembolso, e o valor devolvido segue uma tabela. Veja o passo a passo e o que conferir antes de contratar.',
+    targetKeyword: 'reembolso plano de saúde como funciona',
+    metaDescription: 'Veja como funciona o reembolso do plano de saúde: quais planos têm, quanto volta da consulta particular, quais documentos enviar e o que evitar no pedido.',
+    category: 'Como Funciona na Prática',
+    publishDate: '2026-11-23',
+    readTime: '5 min de leitura',
+    author: {
+      name: 'Andrea Correa Leite',
+      role: 'Corretora Habilitada com Registro SUSEP',
+      susep: '10.2000204.1',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
+      profileUrl: '/sobre'
+    },
+    introAnswer: 'No reembolso, você paga a consulta particular a um médico fora da rede, envia o recibo ou a nota fiscal à operadora e recebe de volta um valor limitado pela tabela do seu contrato. Nem sempre esse valor cobre o preço inteiro, e nem todo plano tem esse recurso. Por isso, a tabela de reembolso precisa ser comparada antes da contratação.',
+    sections: [
+      {
+        questionH2: 'Todo plano de saúde tem reembolso?',
+        directFirstSentence: 'Não: o reembolso de livre escolha é uma característica de alguns produtos, em geral nas categorias com preço mais alto.',
+        content: [
+          'Em São Paulo, esse recurso aparece em operadoras como SulAmérica, Bradesco Saúde, Seguros Unimed e nas linhas Amil com essa opção. Essas operadoras contratam por adesão ou por empresa, e não diretamente no CPF.',
+          'Os planos de rede própria funcionam de outra forma. A proposta deles é você usar os hospitais e os centros médicos da operadora, e é isso que ajuda a segurar o preço. Quem prioriza reembolso livre não costuma ser o público da Trasmontano ou da HapVida Notredame.',
+          'Confirme sempre no produto, não na marca. Dentro da mesma operadora, uma categoria pode ter reembolso e outra não.'
+        ]
+      },
+      {
+        questionH2: 'Quanto eu recebo de volta?',
+        directFirstSentence: 'Você recebe o valor previsto na tabela do seu contrato para aquele procedimento, limitado ao que pagou, e não necessariamente o preço total da consulta.',
+        content: [
+          'Cada categoria tem a sua própria tabela. Quanto mais alta a categoria, em geral maior o limite. Se o seu médico cobra mais do que esse limite, a diferença fica por sua conta.',
+          'Peça a simulação com o procedimento que você realmente usa. Se você tem um médico de confiança fora da rede, pergunte quanto a operadora devolveria pela consulta dele naquela categoria.',
+          'Esse é um dado que depende da tabela vigente da operadora, por isso é preciso pedir a informação do seu produto, e não usar um valor que viu em outro lugar.'
+        ]
+      },
+      {
+        questionH2: 'Quais documentos preciso enviar?',
+        directFirstSentence: 'Normalmente você envia a nota fiscal ou o recibo da consulta, com os dados do profissional e do paciente, pelo aplicativo ou portal da operadora.',
+        content: [
+          'O documento precisa identificar quem atendeu, quem foi atendido, o valor, a data e o que foi feito. Em exames e procedimentos, a operadora pode pedir também o pedido médico e o laudo.',
+          'Guarde os originais. A operadora pode pedir o comprovante de pagamento, e o prazo para solicitar o reembolso e para receber o valor está no contrato. Vale conferir isso antes de deixar para depois.',
+          'Na SulAmérica, por exemplo, você solicita pelo aplicativo e recebe diretamente na sua conta. Cada operadora tem o próprio caminho, que aparece no aplicativo do beneficiário.'
+        ]
+      },
+      {
+        questionH2: 'O que devo evitar para não ter problema com o reembolso?',
+        directFirstSentence: 'Nunca entregue login e senha do plano a uma clínica, e nunca aceite recibo de uma consulta que não aconteceu ou com valor diferente do que você pagou.',
+        content: [
+          'Algumas clínicas oferecem "fazer o reembolso por você" e pedem a sua senha. Isso coloca os seus dados em risco e deixa o pedido em seu nome, mesmo que você não saiba o que foi enviado.',
+          'Recibo fracionado ou de procedimento que não ocorreu também é um problema sério. O pedido sai em seu nome e, se a operadora identificar a irregularidade, é você quem precisa responder.',
+          'A regra é simples: peça o reembolso você mesmo, com o documento real da consulta real, e deixe o histórico do aplicativo em dia.'
+        ]
+      },
+      {
+        questionH2: 'Como saber se vale pagar por um plano com reembolso?',
+        directFirstSentence: 'Faz sentido quando você usa com frequência um médico que não está na rede, e quando a tabela daquela categoria devolve uma parte relevante da consulta.',
+        content: [
+          'Compare duas contas: a diferença de mensalidade para a categoria com reembolso e o que você de fato receberia por ano com as consultas que costuma fazer.',
+          'Se o seu médico atende na rede de um plano mais simples, talvez você não precise pagar por esse recurso. Antes de decidir, pergunte a ele quais convênios atende.'
+        ]
+      }
+    ],
+    concreteBlock: {
+      type: 'steps',
+      title: 'Como pedir um reembolso de consulta',
+      description: 'O caminho geral. O aplicativo da sua operadora mostra as etapas e os prazos do seu contrato.',
+      steps: [
+        { step: 1, title: 'Confira a cobertura antes da consulta', detail: 'Veja no aplicativo se o seu produto tem reembolso e qual o limite para aquele procedimento.' },
+        { step: 2, title: 'Pague e peça o documento certo', detail: 'Solicite nota fiscal ou recibo com os dados do profissional, do paciente, o valor e a data.' },
+        { step: 3, title: 'Abra o pedido você mesmo', detail: 'Entre no aplicativo ou portal da operadora e envie os arquivos. Não entregue a sua senha a terceiros.' },
+        { step: 4, title: 'Acompanhe a análise', detail: 'A operadora pode pedir um comprovante de pagamento ou o pedido médico. Responda dentro do prazo.' },
+        { step: 5, title: 'Confira o valor recebido', detail: 'Compare o depósito com a tabela do contrato. Se houver diferença, peça a explicação à operadora.' }
+      ]
+    },
+    keyTakeaways: [
+      'Reembolso é uma característica do produto, e nem todo plano tem.',
+      'O valor devolvido segue a tabela do contrato e pode não cobrir toda a consulta.',
+      'Envie documentos reais e faça o pedido com o seu próprio acesso.',
+      'Se o seu médico atende em um convênio mais simples, talvez você não precise desse recurso.'
+    ],
+    customWhatsappText: 'Olá! Gostaria de saber quais planos têm reembolso no meu caso e quanto volta da consulta do meu médico.',
+    ctaTitle: 'Quer manter o seu médico de confiança?',
+    ctaDescription: 'Informe pelo WhatsApp a sua profissão e o médico que você usa. A gente compara a rede e a tabela de reembolso das opções disponíveis.'
+  },
+
+  // 16. TROCAR DE PLANO
+  {
+    id: 'artigo-16-trocar-plano-carencia',
+    slug: 'trocar-de-plano-de-saude-sem-carencia',
+    title: 'Como mudar de plano aproveitando o tempo que já cumpri',
+    subtitle: 'Trocar de operadora nem sempre significa cumprir tudo de novo. Veja o que analisar e em que ordem fazer a mudança.',
+    targetKeyword: 'trocar de plano de saúde sem carência',
+    metaDescription: 'Quer trocar de plano de saúde sem carência? Veja como aproveitar o tempo já cumprido, o que pode ficar de fora e por que não cancelar antes da proposta aceita.',
+    category: 'Como Funciona na Prática',
+    publishDate: '2026-11-26',
+    readTime: '6 min de leitura',
+    author: {
+      name: 'Andrea Correa Leite',
+      role: 'Corretora Habilitada com Registro SUSEP',
+      susep: '10.2000204.1',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
+      profileUrl: '/sobre'
+    },
+    introAnswer: 'Para mudar de plano aproveitando o tempo já cumprido, você precisa comprovar a permanência no plano atual e pedir a redução de carências antes de cancelar. Muitas operadoras aceitam quem tem 12 ou 24 meses de plano anterior, cada uma com sua regra. A resposta sobre o que foi reduzido deve constar na proposta, e o plano antigo só deve ser cancelado depois da aceitação do novo.',
+    sections: [
+      {
+        questionH2: 'Quando faz sentido trocar de plano?',
+        directFirstSentence: 'A troca faz sentido quando existe um motivo concreto, como aumento que pesou, rede que piorou, mudança de endereço ou um contrato que não atende mais a família.',
+        content: [
+          'Antes de comparar preços, escreva o motivo. Trocar só por causa da mensalidade, sem olhar a rede, pode levar você a uma mensalidade menor em um hospital distante da sua casa.',
+          'Veja também o que você pode perder. Um contrato individual antigo, por exemplo, tem uma forma de reajuste que dificilmente você encontrará igual em um plano coletivo, e isso precisa entrar na conta.',
+          'Pergunte ainda se o seu médico atende no plano novo e se um tratamento em andamento continuaria sendo feito no mesmo lugar.'
+        ]
+      },
+      {
+        questionH2: 'De quanto tempo de plano preciso para reduzir as carências?',
+        directFirstSentence: 'As tabelas de redução costumam pedir 12 ou 24 meses de plano anterior, conforme a operadora e o tipo de contrato.',
+        content: [
+          'Essa regra não é igual em toda parte. Com o mesmo tempo de plano, uma operadora pode reduzir mais carências do que outra, e isso pode mudar de uma campanha para outra.',
+          'Por isso, vale comparar os prazos junto com o preço. Uma mensalidade um pouco maior com carências menores pode ser melhor para quem tem exames ou cirurgias planejados.',
+          'Também existe a portabilidade de carências, um caminho com requisitos próprios sobre tempo de plano e compatibilidade entre os produtos. Peça para verificar se o seu caso se enquadra antes de escolher por qual caminho seguir.'
+        ]
+      },
+      {
+        questionH2: 'O que pode ficar de fora da redução?',
+        directFirstSentence: 'Parto, categoria superior à do plano antigo e cobertura parcial de doença declarada são os pontos que mais costumam ficar de fora ou receber regras próprias.',
+        content: [
+          'Se o plano novo tem acomodação ou rede superior à do antigo, a operadora pode manter um prazo para usar aquilo que é novo. A redução cobre principalmente o que você já tinha.',
+          'Quem estava cumprindo os 24 meses de cobertura parcial temporária deve perguntar como fica o tempo restante. E quem está planejando engravidar deve olhar o prazo de parto, de 300 dias na tabela habitual, com atenção redobrada.',
+          'A proposta precisa detalhar o resultado. Se a informação só veio por mensagem, peça que ela apareça no documento.'
+        ]
+      },
+      {
+        questionH2: 'Por que não posso cancelar o plano atual antes?',
+        directFirstSentence: 'Se você cancelar antes de a proposta nova ser aceita, pode ficar sem cobertura e ainda perder a base para pedir a redução.',
+        content: [
+          'A ordem correta é: cotar, separar documentos, enviar a proposta, receber a aceitação e a data de início, e só então cancelar o plano antigo. Esse cuidado evita um intervalo descoberto.',
+          'A operadora nova ainda pode pedir uma análise da declaração de saúde, e isso leva tempo. Enquanto o processo acontece, mantenha o plano atual em dia. Mensalidade atrasada também pode atrapalhar a comprovação.',
+          'Pode haver alguns dias com os dois planos ativos. Na maior parte dos casos, é um custo menor do que o risco de um período sem cobertura.'
+        ]
+      }
+    ],
+    concreteBlock: {
+      type: 'checklist',
+      title: 'O que separar antes de pedir a troca',
+      description: 'Com esses itens em mãos, dá para comparar as opções com os prazos reais do seu caso.',
+      items: [
+        { title: 'Carta de permanência', desc: 'Mostra desde quando você está no plano e o tipo de contrato. Peça uma para cada beneficiário.' },
+        { title: 'Comprovantes de pagamento', desc: 'Separe os boletos pagos mais recentes, porque a operadora nova pode pedir.' },
+        { title: 'Carteirinha do plano atual', desc: 'Ajuda a identificar o produto, a acomodação e a abrangência para comparar.' },
+        { title: 'Lista de médicos e tratamentos', desc: 'Anote quem você precisa manter e o que está em andamento.' },
+        { title: 'Não cancele ainda', desc: 'O pedido de cancelamento só deve ser feito depois da aceitação da proposta e da confirmação da data de início.', alert: true }
+      ]
+    },
+    keyTakeaways: [
+      'As operadoras costumam pedir 12 ou 24 meses de plano anterior para reduzir carências.',
+      'Compare o que foi reduzido junto com o preço e a rede.',
+      'Parto e categoria superior costumam ter regras próprias.',
+      'Cancele o plano antigo só depois da aceitação da proposta nova.'
+    ],
+    customWhatsappText: 'Olá! Quero trocar de plano e gostaria de ver como aproveitar o tempo que já cumpri.',
+    ctaTitle: 'Pensando em trocar de plano?',
+    ctaDescription: 'Envie sua carta de permanência e as idades pelo WhatsApp. A gente compara as opções e mostra o que cada operadora costuma reduzir.'
+  },
+
+  // 17. DECLARAÇÃO DE SAÚDE
+  {
+    id: 'artigo-17-declaracao-de-saude',
+    slug: 'declaracao-de-saude-plano-de-saude',
+    title: 'Declaração de saúde: o que perguntam e por que não omitir',
+    subtitle: 'Como é o formulário, quem preenche, como responder em caso de dúvida e o que acontece depois de enviar.',
+    targetKeyword: 'declaração de saúde plano de saúde',
+    metaDescription: 'Veja o que é a declaração de saúde do plano, que perguntas aparecem no formulário, quem preenche, como responder em caso de dúvida e por que não omitir nada.',
+    category: 'Como Funciona na Prática',
+    publishDate: '2026-11-30',
+    readTime: '5 min de leitura',
+    author: {
+      name: 'Andrea Correa Leite',
+      role: 'Corretora Habilitada com Registro SUSEP',
+      susep: '10.2000204.1',
+      bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
+      profileUrl: '/sobre'
+    },
+    introAnswer: 'A declaração de saúde é o formulário em que cada beneficiário informa as doenças e as lesões que sabe ter antes de contratar o plano. Ela costuma perguntar sobre diagnósticos, cirurgias, internações e tratamentos, além de peso e altura. Responda com o que você sabe e, na dúvida, consulte seu médico. É com base nela que a operadora analisa a proposta e define o que entra em cobertura parcial temporária.',
+    sections: [
+      {
+        questionH2: 'O que a declaração de saúde costuma perguntar?',
+        directFirstSentence: 'O formulário costuma listar grupos de doenças e perguntar sobre diagnósticos, cirurgias, internações, tratamentos em andamento e uso contínuo de medicamentos.',
+        content: [
+          'A maioria das perguntas é respondida com sim ou não, e pede mais detalhes quando a resposta é sim. Os grupos costumam passar por coração, pressão, diabetes, coluna, articulações, câncer, saúde mental e outros.',
+          'Altura e peso também aparecem, porque ajudam na análise médica. Em alguns formulários, há perguntas sobre gravidez em andamento e sobre cirurgias já indicadas por um médico.',
+          'Cada operadora usa o próprio modelo, e por isso as perguntas não são idênticas. Leia o formulário inteiro antes de responder: uma pergunta sobre um problema antigo pode estar escrita de um jeito diferente do que você imagina.'
+        ]
+      },
+      {
+        questionH2: 'Quem deve preencher e assinar?',
+        directFirstSentence: 'Cada beneficiário responde por si, e o responsável legal responde por crianças e por dependentes que não podem assinar.',
+        content: [
+          'O titular não deve responder de memória pelo cônjuge ou por um filho adulto. Cada pessoa sabe melhor o próprio histórico, e a assinatura confirma que aquelas informações são verdadeiras.',
+          'O corretor pode explicar o que uma pergunta quer dizer, mas não pode decidir a resposta por você. Desconfie de quem sugere marcar "não" em tudo para a proposta passar mais rápido.',
+          'Em muitas operadoras, é possível fazer uma entrevista com um médico indicado por ela para tirar dúvidas sobre o preenchimento. Se você tem um histórico mais complexo, vale perguntar sobre essa opção.'
+        ]
+      },
+      {
+        questionH2: 'E se eu não tiver certeza de uma resposta?',
+        directFirstSentence: 'Consulte o seu médico ou os seus exames antes de responder, porque o formulário pergunta sobre o que você sabe ter.',
+        content: [
+          'Não dá para declarar o que você nunca soube, e o formulário também não é um exame. A questão são as condições que você conhece: um diagnóstico que já recebeu, um tratamento que faz, uma cirurgia que já foi indicada.',
+          'Quando a dúvida é sobre um problema antigo que passou, procure o laudo ou o relatório médico. Escreva o que aconteceu e quando, em vez de simplesmente deixar a pergunta de lado.',
+          'Antes de assinar, confira o que foi escrito se outra pessoa ajudou a digitar. A responsabilidade pelas respostas continua sendo sua.'
+        ]
+      },
+      {
+        questionH2: 'O que acontece depois de enviar a declaração?',
+        directFirstSentence: 'A operadora analisa as respostas e pode aceitar a proposta, pedir mais informações ou aplicar a cobertura parcial temporária às condições declaradas.',
+        content: [
+          'Em alguns casos, a operadora pede exames ou relatórios médicos antes de responder. Quanto mais clara for a declaração, menor a chance de a análise voltar com dúvidas.',
+          'Quando existe uma condição declarada, o prazo habitual na tabela da operadora é de 24 meses de cobertura parcial temporária para o que está ligado a ela. Leia com atenção a resposta da análise antes de confirmar a contratação.',
+          'Guarde uma cópia da declaração junto com a proposta. Esse documento pode ser consultado mais tarde, então é bom você saber exatamente o que foi informado.'
+        ]
+      },
+      {
+        questionH2: 'Por que não vale a pena omitir uma informação?',
+        directFirstSentence: 'Porque a operadora pode comparar a declaração com o seu histórico quando você pedir um procedimento, e a omissão de algo conhecido pode gerar negativa e questionamento do contrato.',
+        content: [
+          'O problema não aparece na contratação, que fica mais rápida. Ele aparece anos depois, no pedido de uma cirurgia, quando o relatório do médico registra há quanto tempo aquele problema existe.',
+          'Declarar traz uma limitação com data para terminar. A omissão deixa uma dúvida que pode aparecer na hora em que você mais precisar, e a discussão acontece quando você já está doente.',
+          'A declaração também protege você: quando está tudo informado, fica muito mais simples reagir se surgir um problema com a análise de uma cobertura.'
+        ]
+      }
+    ],
+    concreteBlock: {
+      type: 'checklist',
+      title: 'Antes de preencher a declaração',
+      description: 'Separe estes itens para responder com calma e sem depender da memória.',
+      items: [
+        { title: 'Diagnósticos que você já recebeu', desc: 'Liste as doenças conhecidas, com a data aproximada do diagnóstico.' },
+        { title: 'Cirurgias e internações', desc: 'Anote o que foi feito e quando, e procure os relatórios quando houver.' },
+        { title: 'Tratamentos e medicamentos atuais', desc: 'Tenha em mãos a lista do que você usa e por que motivo.' },
+        { title: 'Cirurgias já indicadas', desc: 'Informe se algum médico já pediu um procedimento que ainda não foi feito.' },
+        { title: 'Respostas de cada dependente', desc: 'Peça que cada adulto confira as próprias respostas antes de assinar.' },
+        { title: 'Nunca marque "não" para acelerar', desc: 'Uma resposta que não corresponde ao que você sabe pode gerar problema justamente quando você precisar do plano.', alert: true }
+      ]
+    },
+    keyTakeaways: [
+      'A declaração pergunta sobre as doenças e as lesões que você sabe ter.',
+      'Cada beneficiário responde pelo próprio histórico; o corretor não decide as respostas.',
+      'Na dúvida, consulte o seu médico e procure os seus exames antes de responder.',
+      'Guarde uma cópia da declaração junto com a proposta.'
+    ],
+    customWhatsappText: 'Olá! Tenho dúvidas sobre como funciona a declaração de saúde na contratação do plano.',
+    ctaTitle: 'Dúvida sobre a declaração de saúde?',
+    ctaDescription: 'Fale com a gente pelo WhatsApp antes de preencher. A gente explica o formulário da operadora que você escolher e o que acontece em cada etapa.'
   }
 ];
 

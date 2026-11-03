@@ -33,7 +33,7 @@ export const BlogListPage: React.FC = () => {
         post.subtitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
         post.targetKeyword.toLowerCase().includes(searchTerm.toLowerCase());
       return matchCat && matchSearch;
-    });
+    }).sort((a, b) => b.publishDate.localeCompare(a.publishDate));
   }, [selectedCategory, searchTerm, today]);
 
   // Schema de Coleção de Artigos / Blog

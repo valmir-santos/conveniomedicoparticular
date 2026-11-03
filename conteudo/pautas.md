@@ -29,12 +29,12 @@ Cada artigo linka para o pilar e para `/plano-de-saude-sem-cnpj`.
 | # | Tema | Palavra-alvo | Tipo | Status |
 |---|---|---|---|---|
 | 1 | Quanto tempo até eu poder usar o plano que acabei de contratar | carência plano de saúde quanto tempo | na prática | publicado — `carencia-plano-de-saude-quanto-tempo` |
-| 2 | **Tenho um problema de saúde. O plano me aceita?** | plano de saúde com doença preexistente | caso difícil | **pendente** |
+| 2 | **Tenho um problema de saúde. O plano me aceita?** | plano de saúde com doença preexistente | caso difícil | escrito — `plano-de-saude-com-doenca-preexistente` |
 | 3 | Abri MEI só para pagar mais barato. Posso perder o plano? | abrir MEI para plano de saúde risco | caso difícil | publicado — `abrir-mei-so-para-plano-de-saude-risco` |
 | 4 | Individual, MEI ou adesão: qual é o seu caso | diferença plano individual e coletivo por adesão | comparação | publicado — `diferenca-plano-individual-coletivo-por-adesao` |
 | 5 | Quais operadoras ainda vendem plano individual em São Paulo | operadoras plano individual São Paulo | comparação | publicado — `quais-operadoras-ainda-vendem-plano-individual-sao-paulo` |
-| 6 | **Por que o plano sobe todo ano — e por que o empresarial pode subir mais** | reajuste plano de saúde individual | na prática | **pendente** — sem citar o teto da ANS (ver `fatos.md`) |
-| 7 | **Perdi o plano da empresa. Como contratar por conta sem começar do zero** | perdi o plano da empresa o que fazer | caso difícil | **pendente** |
+| 6 | **Por que o plano sobe todo ano — e por que o empresarial pode subir mais** | reajuste plano de saúde individual | na prática | escrito — `reajuste-plano-de-saude-individual-empresarial` |
+| 7 | **Perdi o plano da empresa. Como contratar por conta sem começar do zero** | perdi o plano da empresa o que fazer | caso difícil | escrito — `perdi-o-plano-da-empresa-o-que-fazer` |
 
 ## Já publicados fora do cluster 1
 
@@ -53,11 +53,11 @@ dia a dia; nenhum depende de norma.
 
 | # | Tema | Palavra-alvo | Status |
 |---|---|---|---|
-| 8 | Enfermaria ou apartamento: o que muda no dia a dia e no preço | plano de saúde enfermaria ou apartamento | pendente |
-| 9 | Abrangência regional ou nacional: quando vale pagar por cobertura no Brasil todo | plano de saúde regional ou nacional | pendente |
-| 10 | Como funciona o reembolso de consulta no plano de saúde | reembolso plano de saúde como funciona | pendente |
-| 11 | Como mudar de plano aproveitando o tempo que já cumpri | trocar de plano de saúde sem carência | pendente |
-| 12 | Declaração de saúde: o que perguntam e por que não omitir | declaração de saúde plano de saúde | pendente — conversa com o tema 2; escreva um só se ficarem parecidos |
+| 8 | Enfermaria ou apartamento: o que muda no dia a dia e no preço | plano de saúde enfermaria ou apartamento | escrito — `plano-de-saude-enfermaria-ou-apartamento` |
+| 9 | Abrangência regional ou nacional: quando vale pagar por cobertura no Brasil todo | plano de saúde regional ou nacional | escrito — `plano-de-saude-regional-ou-nacional` |
+| 10 | Como funciona o reembolso de consulta no plano de saúde | reembolso plano de saúde como funciona | escrito — `reembolso-plano-de-saude-como-funciona` |
+| 11 | Como mudar de plano aproveitando o tempo que já cumpri | trocar de plano de saúde sem carência | escrito — `trocar-de-plano-de-saude-sem-carencia` |
+| 12 | Declaração de saúde: o que perguntam e por que não omitir | declaração de saúde plano de saúde | escrito — `declaracao-de-saude-plano-de-saude` |
 
 ## Cluster 2 (abrir só depois do 1) — Rede credenciada por região de São Paulo
 

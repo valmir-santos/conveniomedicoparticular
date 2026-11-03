@@ -15,6 +15,7 @@ export {SITE_URL} from './lib/site';
 // Na prévia da Vercel (branch de revisão) os agendados aparecem, para a corretora ler antes do merge.
 export const SHOW_SCHEDULED = process.env.VERCEL_ENV === 'preview';
 export const BUILD_DAY = SHOW_SCHEDULED ? '9999-12-31' : todayISO();
+globalThis.__BUILD_DAY__ = BUILD_DAY;
 
 // Rotas indexáveis. A ordem é a do sitemap.
 export const ROUTES: {path: string; lastmod?: string}[] = [
