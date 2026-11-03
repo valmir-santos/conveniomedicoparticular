@@ -9,7 +9,7 @@ import { Seo } from '../components/Seo';
 
 export const MeiPage: React.FC = () => {
   const pageTitle = "Convênio Médico para MEI: Regras, Valores e Cotação";
-  const pageDescription = "Tabela de convênio médico para MEI a partir de 2 vidas em São Paulo, Rio de Janeiro, Brasília e Paraná. Economia real de 20% a 35%, regras de aceitação e documentação.";
+  const pageDescription = "Tabela de convênio médico para MEI a partir de 2 vidas em São Paulo, Rio de Janeiro, Brasília e Paraná. Em geral, cerca de 40% mais barato que o individual semelhante. Regras e documentos.";
 
   const faqList = [
     {
@@ -68,7 +68,7 @@ export const MeiPage: React.FC = () => {
           </h1>
 
           <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-sans font-light">
-            Se você já possui um MEI ativo com faturamento real em São Paulo, Rio de Janeiro, Brasília, Paraná ou qualquer região do Brasil, o convênio empresarial gera uma economia de até 35% na mensalidade. Analisamos a sua tabela com transparência: orientamos quem realmente é MEI e protegemos quem só tem CPF para não criar obrigações fiscais desnecessárias.
+            Se você já possui um MEI ativo com faturamento real em São Paulo, Rio de Janeiro, Brasília, Paraná ou qualquer região do Brasil, o convênio empresarial costuma sair, em geral, cerca de 40% mais barato que o plano individual semelhante; o valor real depende da tabela vigente, da faixa etária e da operadora. Analisamos a sua tabela com transparência: orientamos quem realmente é MEI e protegemos quem só tem CPF para não criar obrigações fiscais desnecessárias.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
@@ -99,7 +99,7 @@ export const MeiPage: React.FC = () => {
             O plano de saúde via MEI é uma excelente escolha quando você já possui uma empresa aberta com atividade real — seja você prestador de serviços, comerciante, consultor ou profissional autônomo formalizado — e deseja incluir pelo menos mais uma pessoa da sua família (cônjuge ou filho) ou o funcionário registrado do seu negócio.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Nesse formato, você tem acesso às tabelas corporativas das principais operadoras e seguradoras (como Amil, Bradesco Saúde, SulAmérica, Porto Saúde, GNDI/Hapvida, Trasmontano e São Cristóvão) com custos até 35% menores que as linhas convencionais.
+            Nesse formato, você tem acesso às tabelas corporativas das principais operadoras e seguradoras (como Amil, Bradesco Saúde, SulAmérica, Porto Saúde, GNDI/Hapvida, Trasmontano e São Cristóvão) com mensalidade, em geral, cerca de 40% menor que a do plano individual semelhante.
           </p>
 
           <SectionWhatsAppCta

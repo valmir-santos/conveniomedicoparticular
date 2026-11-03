@@ -26,7 +26,7 @@ export const PlanoSemCnpjPage: React.FC = () => {
     },
     {
       question: 'Plano individual é sempre mais caro?',
-      answer: 'O plano individual costuma ter uma mensalidade inicial cerca de 15% a 25% superior a um plano empresarial básico, porém não embute custos fiscais de manter um CNPJ ativo nem taxas associativas cobradas mensalmente por administradoras de benefícios.'
+      answer: 'O plano empresarial costuma sair, em geral, cerca de 40% mais barato que o individual semelhante. Por outro lado, o individual não embute custos fiscais de manter um CNPJ ativo nem taxas associativas cobradas mensalmente por administradoras de benefícios.'
     },
     {
       question: 'Sou autônomo sem registro. Isso muda alguma coisa?',
@@ -247,7 +247,7 @@ export const PlanoSemCnpjPage: React.FC = () => {
             </h2>
           </div>
           <p className="text-gray-800 text-sm sm:text-base leading-relaxed">
-            Os planos de saúde para MEI e pequenas empresas costumam ser entre <strong>20% e 35% mais baratos</strong> na largada porque as operadoras entendem que contratos corporativos diluem riscos entre os funcionários e permitem reajustes contratuais mais flexíveis.
+            Os planos de saúde para MEI e pequenas empresas costumam ser, em geral, cerca de <strong>40% mais baratos</strong> que o plano individual semelhante, na largada, porque as operadoras entendem que contratos corporativos diluem riscos entre os funcionários e permitem reajustes contratuais mais flexíveis.
           </p>
           <p className="text-gray-800 text-sm sm:text-base leading-relaxed">
             No entanto, abrir um MEI <strong>exclusivamente para obter desconto no convênio</strong> envolve riscos práticos que muitas corretoras omitem:
@@ -255,7 +255,7 @@ export const PlanoSemCnpjPage: React.FC = () => {
           <ul className="space-y-2.5 text-sm text-gray-800 pt-1">
             <li className="flex items-start gap-2">
               <span className="w-2 h-2 rounded-full bg-[#D97706] mt-2 shrink-0"></span>
-              <span><strong>Guia do DAS obrigatória:</strong> Todo mês você terá que pagar a guia do Simples Nacional (cerca de R$ 75 a R$ 80), use ou não o CNPJ. Ao longo do ano, isso consome grande parte da economia da mensalidade.</span>
+              <span><strong>Guia do DAS obrigatória:</strong> Todo mês você terá que pagar a guia do Simples Nacional (cerca de R$ 75 a R$ 80), use ou não o CNPJ. Ao longo do ano, isso consome parte da economia da mensalidade.</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="w-2 h-2 rounded-full bg-[#D97706] mt-2 shrink-0"></span>

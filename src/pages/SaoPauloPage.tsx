@@ -22,7 +22,7 @@ export const SaoPauloPage: React.FC = () => {
     },
     {
       question: 'Qual a diferença de preço entre plano no CPF e plano MEI em SP?',
-      answer: 'A tabela empresarial (MEI) costuma ter mensalidade cerca de 15% a 25% menor, mas exige pagamento mensal da taxa do DAS e cumprimento de obrigações fiscais. Para quem não tem atividade comercial ativa, o plano individual no CPF costuma ser muito mais seguro e vantajoso no longo prazo.'
+      answer: 'A tabela empresarial (MEI) costuma sair, em geral, cerca de 40% mais barata que o plano individual semelhante, mas exige pagamento mensal da taxa do DAS e cumprimento de obrigações fiscais. Para quem não tem atividade comercial ativa, o plano individual no CPF costuma ser muito mais seguro e vantajoso no longo prazo.'
     },
     {
       question: 'Como funciona o atendimento presencial e digital em São Paulo?',

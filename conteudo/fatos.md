@@ -38,6 +38,14 @@ Não duplique aqui: a fonte é `src/data/operatorsData.ts` (quem vende no CPF, a
 região coberta em São Paulo, hospitais). Se precisar de algo que não está lá, peça para a
 corretora acrescentar naquele arquivo.
 
+## Preço — comparação geral
+
+Sempre com "em geral" e lembrando que o valor real depende da tabela vigente, da faixa etária e da operadora.
+
+| Fato | Valor | Fonte | Confirmado |
+|---|---|---|---|
+| Plano empresarial (MEI e PME) comparado ao individual semelhante | em geral, cerca de 40% mais barato | informado por Valmir J Santos em 03/11/2026 | a confirmar |
+
 ## O que NÃO é fato publicável (referência interna)
 
 Ficam fora dos artigos, mesmo sendo verdade, por decisão do cliente: números de lei e de
