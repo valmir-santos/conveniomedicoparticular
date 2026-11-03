@@ -256,7 +256,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         questionH2: 'Quando contratar com MEI é uma boa escolha e quando é um erro perigoso?',
-        directFirstSentence: 'Contratar pelo MEI é excelente para quem já trabalha formalmente como autônomo e tem mais de 6 meses de CNPJ ativo, mas é um erro para quem só quer comprar plano médico pessoal.',
+        directFirstSentence: 'Contratar pelo MEI é excelente para quem já trabalha formalmente como autônomo, com CNPJ ativo e atividade real, mas é um erro para quem só quer comprar plano médico pessoal.',
         content: [
           'Se você é prestador de serviços, comerciante ou consultor com CNPJ ativo e faturamento real, a linha empresarial PME é perfeita: ela oferece acesso a redes amplas e tabelas corporativas.',
           'Porém, se você é trabalhador CLT, aposentado, estudante ou profissional sem empresa, o caminho seguro é o convênio no CPF. Você fica livre de auditorias fiscais e não corre risco de cancelamento por burocracia contábil.'
@@ -268,7 +268,7 @@ export const BLOG_POSTS: BlogPost[] = [
       title: 'Checklist de Segurança: Você deve contratar no CPF ou no MEI?',
       description: 'Avalie os critérios abaixo para escolher a modalidade de contratação mais segura para sua família.',
       items: [
-        { title: 'Você já tem MEI ativo há mais de 6 meses com faturamento real?', desc: 'Se SIM, o plano empresarial PME é vantajoso e plenamente regular.', alert: false },
+        { title: 'Você já tem MEI ativo, no tempo exigido pela operadora, com faturamento real?', desc: 'Se SIM, o plano empresarial PME é vantajoso e plenamente regular.', alert: false },
         { title: 'Você pretendia abrir MEI apenas para comprar o plano de saúde?', desc: 'Se SIM, NÃO faça isso. O custo das guias DAS e o risco de cancelamento em auditoria não compensam.', alert: true },
         { title: 'Você quer um contrato que não dependa de CNPJ nem de sindicato?', desc: 'O plano individual direto no CPF é o único que oferece proteção permanente sem vínculo com pessoa jurídica.', alert: false },
         { title: 'Você possui dependentes idosos ou crianças com tratamentos em andamento?', desc: 'Priorize contratos individuais no CPF para evitar risco de cancelamento unilateral inesperado.', alert: false }
@@ -602,10 +602,10 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'artigo-8-como-contratar-plano-mei',
     slug: 'como-contratar-plano-de-saude-mei-regras-documentos',
-    title: 'Como contratar plano de saúde com MEI: carência de 6 meses, documentos e dependentes',
+    title: 'Como contratar plano de saúde com MEI: tempo de CNPJ, documentos e dependentes',
     subtitle: 'O guia definitivo para microempreendedores: regras de tempo de CNPJ, quem pode ser incluído, documentos exigidos e como funciona a redução de carência.',
     targetKeyword: 'como contratar plano de saúde com MEI',
-    metaDescription: 'Veja como contratar plano de saúde com MEI: regra dos 6 meses de abertura do CNPJ, documentos necessários, inclusão de familiares e tabelas de desconto.',
+    metaDescription: 'Veja como contratar plano de saúde com MEI: tempo de CNPJ exigido, documentos necessários, inclusão de familiares e como comparar as tabelas das operadoras.',
     category: 'Planos Empresariais & MEI',
     publishDate: '2026-09-01',
     readTime: '8 min de leitura',
@@ -616,15 +616,15 @@ export const BLOG_POSTS: BlogPost[] = [
       bio: 'Especialista em convênios médicos individuais, familiares e PME em São Paulo, Rio de Janeiro, Brasília e Paraná há mais de 20 anos. Atendimento técnico sem atalhos irregulares.',
       profileUrl: '/sobre'
     },
-    introAnswer: 'Para contratar um plano de saúde pelo MEI, você precisa ter o CNPJ ativo na Receita Federal há pelo menos 6 meses contínuos e reunir no mínimo 2 vidas (o titular do MEI mais um dependente direto, como cônjuge ou filho, ou funcionário registrado). O plano MEI oferece tabelas corporativas com custos até 35% mais baixos que as opções individuais.',
+    introAnswer: 'Para contratar um plano de saúde pelo MEI, você precisa ter o CNPJ ativo na Receita Federal, cumprir o tempo mínimo de abertura exigido pela operadora, que varia de uma para outra, e reunir no mínimo 2 vidas (o titular do MEI mais um dependente direto, como cônjuge ou filho, ou funcionário registrado). A diferença de preço em relação ao plano no CPF depende da tabela vigente de cada operadora.',
     sections: [
       {
-        questionH2: 'Por que as operadoras exigem 6 meses de MEI aberto?',
-        directFirstSentence: 'A regra dos 6 meses visa certificar que a empresa possui atividade econômica regular e não foi criada apenas para fraude de adesão.',
+        questionH2: 'Quanto tempo de MEI aberto as operadoras exigem?',
+        directFirstSentence: 'O tempo mínimo de CNPJ ativo varia por operadora, e a exigência serve para certificar que a empresa possui atividade econômica regular e não foi criada apenas para fraude de adesão.',
         content: [
-          'Todas as principais operadoras de saúde (como Amil, Bradesco Saúde, SulAmérica, Porto Saúde, Notredame Intermédica e Trasmontano) aplicam a exigência de tempo mínimo de constituição cadastral.',
+          'Por isso, a regra precisa ser conferida na tabela vigente da operadora escolhida, antes de enviar a proposta.',
           'Durante a análise da proposta, a operadora emite o comprovante de situação cadastral no site da Receita Federal e confere a data de abertura.',
-          'Se o seu CNPJ tiver menos de 180 dias de registro, a proposta corporativa de MEI não é aceita pelo sistema das seguradoras, sendo necessário aguardar o prazo ou optar por um contrato no CPF.'
+          'Se o seu CNPJ ainda não atingir o tempo exigido por aquela operadora, a proposta de MEI não é aceita, sendo necessário aguardar o prazo, verificar outra operadora ou optar por um contrato no CPF.'
         ]
       },
       {
@@ -658,15 +658,15 @@ export const BLOG_POSTS: BlogPost[] = [
       title: 'Passo a Passo para Contratar Plano de Saúde pelo MEI',
       description: 'Como funciona a contratação do início até a liberação das carteirinhas.',
       steps: [
-        { step: 1, title: 'Checagem do CNPJ', detail: 'Verificação do tempo de abertura (mínimo 6 meses) e situação ativa na Receita Federal.' },
+        { step: 1, title: 'Checagem do CNPJ', detail: 'Verificação do tempo de abertura exigido pela operadora e situação ativa na Receita Federal.' },
         { step: 2, title: 'Composição das 2 Vidas', detail: 'Definição do titular + dependente legal (cônjuge/filho) ou funcionário registrado.' },
         { step: 3, title: 'Escolha da Rede e Acomodação', detail: 'Seleção da operadora (Amil, Bradesco, Porto, Trasmontano, São Cristóvão) e padrão de internação (Enfermaria ou Apartamento).' },
         { step: 4, title: 'Envio Digital e Implantação', detail: 'Assinatura digital da proposta, conferência documental e emissão das carteirinhas corporativas.' }
       ]
     },
     keyTakeaways: [
-      'Contratos de MEI exigem no mínimo 6 meses de CNPJ ativo e mínimo de 2 vidas.',
-      'Economia de até 35% em relação aos planos de saúde de pessoa física avulsos.',
+      'Contratos de MEI exigem mínimo de 2 vidas, e o tempo de CNPJ ativo varia por operadora.',
+      'A diferença de preço em relação ao plano no CPF depende da tabela vigente; peça o comparativo antes de decidir.',
       'Cônjuge, filhos e funcionários registrados no eSocial podem ser incluídos.',
       'Envie o número do seu CNPJ para receber um estudo comparativo completo das operadoras.'
     ],
@@ -699,7 +699,7 @@ export const BLOG_POSTS: BlogPost[] = [
         questionH2: 'Empresa LTDA ou SLU precisa esperar tempo de CNPJ para contratar?',
         directFirstSentence: 'Não, empresas constituídas como LTDA ou Sociedade Limitada Unipessoal (SLU) podem contratar o plano no dia seguinte à emissão do contrato social registrado.',
         content: [
-          'Diferente do MEI (que exige 6 meses de abertura), as sociedades contratuais regulares (LTDA, SLU, S/A) são aceitas pelas operadoras logo após a obtenção do CNPJ ativo e registro na Junta Comercial.',
+          'Diferente do MEI (em que o tempo mínimo de abertura varia por operadora), as sociedades contratuais regulares (LTDA, SLU, S/A) são aceitas pelas operadoras logo após a obtenção do CNPJ ativo e registro na Junta Comercial.',
           'Isso permite que novos empresários, startups, clínicas, consultorias e comércios ofereçam plano de saúde aos sócios e colaboradores desde o primeiro mês de atividade da empresa.'
         ]
       },
@@ -736,7 +736,7 @@ export const BLOG_POSTS: BlogPost[] = [
       description: 'Principais diferenças contratuais entre MEI e sociedades empresariais.',
       headers: ['Critério', 'Microempreendedor Individual (MEI)', 'Empresarial PME (LTDA / SLU / S/A)'],
       rows: [
-        ['Tempo de CNPJ Exigido', 'Mínimo de 6 meses de abertura', 'Imediato (zero dias de carência do CNPJ)'],
+        ['Tempo de CNPJ Exigido', 'Varia por operadora; confira na tabela vigente', 'Imediato (zero dias de carência do CNPJ)'],
         ['Mínimo de Vidas', 'A partir de 2 vidas (titular + dependente direto)', 'A partir de 2 ou 3 vidas (sócios, funcionários e dependentes)'],
         ['Tipos de Vidas Permitidas', 'Apenas titular MEI, dependentes diretos e funcionário registrado', 'Sócios no contrato social, colaboradores CLT, estagiários e familiares'],
         ['Diferenciação de Planos', 'Mesmo plano para todo o grupo', 'Possibilidade de planos superiores para diretoria e padrão para equipe'],
@@ -744,7 +744,7 @@ export const BLOG_POSTS: BlogPost[] = [
       ]
     },
     keyTakeaways: [
-      'Empresas LTDA e SLU não precisam aguardar 6 meses de abertura para contratar.',
+      'Empresas LTDA e SLU podem contratar logo após a obtenção do CNPJ ativo.',
       'Contratação a partir de 2 vidas somando sócios, funcionários e familiares.',
       'Coparticipação reduz os custos fixos da empresa em até 30% ao mês.',
       'Solicite um estudo comparativo gratuito entre as maiores operadoras e seguradoras do país.'
